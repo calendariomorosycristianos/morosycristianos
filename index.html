@@ -8,32 +8,93 @@
 </head>
 
 <body>
+<header class="cabecera">
+    <div class="contenedor">
+        <a href="index.html" class="logo">MOROS Y CRISTIANOS</a>
 
-    <main class="contenedor">
+        <nav class="navegacion">
+            <a href="#">Fiestas</a>
+            <a href="#">Localidades</a>
+            <a href="#">Calendario</a>
+        </nav>
+    </div>
+</header>
 
-        <h1 class="titulo">MOROS Y CRISTIANOS</h1>
+<main>
 
-        <div class="linea"></div>
+    <section class="hero">
+        <div class="contenedor">
+            <p class="etiqueta">FIESTAS DE MOROS Y CRISTIANOS</p>
 
-        <h2 class="subtitulo">
-            El calendario de las fiestas de Moros y Cristianos
-        </h2>
+            <h1>Descubre las fiestas<br>de toda España</h1>
 
-        <p class="texto">
-            Estamos preparando un nuevo espacio para descubrir,
-            consultar y disfrutar de las fiestas de Moros y Cristianos
-            de toda España.
-        </p>
+            <p class="descripcion">
+                Consulta fechas, localidades y programas
+                de las fiestas de Moros y Cristianos.
+            </p>
 
-        <div class="categorias">
-            FIESTAS · FECHAS · LOCALIDADES · PROGRAMAS
+            <div class="buscador">
+                <input
+                    type="text"
+                    placeholder="Buscar localidad o fiesta..."
+                >
+                <button>Buscar</button>
+            </div>
         </div>
+    </section>
 
-        <div class="proximamente">
-            Próximamente
+    <section class="proximas">
+        <div class="contenedor">
+            <div class="cabecera-seccion">
+                <div>
+                    <p class="etiqueta">CALENDARIO</p>
+                    <h2>Próximas fiestas</h2>
+                </div>
+
+                <a href="#">Ver todas →</a>
+            </div>
+
+            <div class="fiestas">
+
+                <article class="tarjeta-fiesta">
+                    <p class="fecha">21 — 24 ABRIL</p>
+                    <h3>Alcoy</h3>
+                    <p>Alicante</p>
+                    <a href="#">Ver fiesta →</a>
+                </article>
+
+                <article class="tarjeta-fiesta">
+                    <p class="fecha">1 — 5 MAYO</p>
+                    <h3>Villena</h3>
+                    <p>Alicante</p>
+                    <a href="#">Ver fiesta →</a>
+                </article>
+
+                <article class="tarjeta-fiesta">
+                    <p class="fecha">8 — 11 MAYO</p>
+                    <h3>Bocairent</h3>
+                    <p>Valencia</p>
+                    <a href="#">Ver fiesta →</a>
+                </article>
+
+            </div>
         </div>
+    </section>
 
-    </main>
+</main>
+   
 <script src="js/app.js"></script>
 </body>
+<!----
+<footer class="pie">
+    <div class="contenedor">
+        <p>
+            Fotografía: Enrique Blasco ·
+            <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+                CC BY 2.0
+            </a>
+        </p>
+    </div>
+</footer>
+-->
 </html>

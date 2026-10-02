@@ -1,76 +1,175 @@
-        * {
-            box-sizing: border-box;
-        }
+/* =========================
+   BASE
+========================= */
 
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #111111;
-            color: white;
-            text-align: center;
-        }
+* {
+    box-sizing: border-box;
+}
 
-        .contenedor {
-            width: 90%;
-            max-width: 800px;
-            padding: 40px 20px;
-        }
+html {
+    scroll-behavior: smooth;
+}
 
-        .titulo {
-            font-size: 56px;
-            letter-spacing: 6px;
-            margin: 0;
-            font-weight: 700;
-        }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f3ef;
+    color: #171717;
+}
 
-        .linea {
-            width: 80px;
-            height: 3px;
-            background: white;
-            margin: 25px auto;
-        }
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-        .subtitulo {
-            font-size: 24px;
-            font-weight: 400;
-            margin-bottom: 30px;
-        }
 
-        .texto {
-            font-size: 18px;
-            line-height: 1.7;
-            color: #cccccc;
-            margin-bottom: 35px;
-        }
+/* =========================
+   CABECERA
+========================= */
 
-        .categorias {
-            font-size: 15px;
-            letter-spacing: 2px;
-            color: #aaaaaa;
-        }
+.cabecera {
+    background: #111111;
+    color: white;
+}
 
-        .proximamente {
-            margin-top: 45px;
-            font-size: 14px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
+.cabecera .contenedor {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        @media (max-width: 600px) {
-            .titulo {
-                font-size: 36px;
-                letter-spacing: 4px;
-            }
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
 
-            .subtitulo {
-                font-size: 20px;
-            }
+.navegacion {
+    display: flex;
+    gap: 32px;
+}
 
-            .texto {
-                font-size: 16px;
-            }
-        }
+.navegacion a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.navegacion a:hover {
+    color: white;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
+        url("../assets/images/hero-moros.jpg") center center / cover no-repeat;
+    color: white;
+    padding: 110px 0 120px;
+}
+
+.hero .contenedor {
+    max-width: 900px;
+}
+
+.etiqueta {
+    margin: 0 0 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #999999;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(48px, 7vw, 82px);
+    line-height: 0.98;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.descripcion {
+    max-width: 600px;
+    margin: 32px 0 40px;
+    color: #bdbdbd;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BUSCADOR
+========================= */
+
+.buscador {
+    display: flex;
+    max-width: 650px;
+}
+
+.buscador input {
+    flex: 1;
+    min-width: 0;
+    padding: 18px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buscador button {
+    padding: 18px 28px;
+    border: none;
+    background: white;
+    color: #111111;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background: #dddddd;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    .cabecera .contenedor {
+        min-height: 65px;
+    }
+
+    .navegacion {
+        display: none;
+    }
+
+    .hero {
+        padding: 80px 0 90px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .descripcion {
+        font-size: 17px;
+    }
+
+    .buscador {
+        flex-direction: column;
+    }
+
+    .buscador button {
+        width: 100%;
+    }
+}
