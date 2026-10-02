@@ -33,14 +33,16 @@
                 de las fiestas de Moros y Cristianos.
             </p>
 
-            <div class="buscador">
-                <input
-                    type="text"
-                    placeholder="Buscar localidad o fiesta..."
+        <div class="buscador">
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="Buscar localidad o fiesta..."
                 >
-                <button>Buscar</button>
-            </div>
+            <button id="boton-buscar">Buscar</button>
         </div>
+
+        <div id="resultados-busqueda"></div>
     </section>
 
     <section class="proximas">
@@ -54,28 +56,13 @@
                 <a href="#">Ver todas →</a>
             </div>
 
-            <div class="fiestas">
+<div class="carrusel">
+    <button class="carrusel-boton carrusel-anterior" id="carrusel-anterior">←</button>
 
-                <article class="tarjeta-fiesta">
-                    <p class="fecha">21 — 24 ABRIL</p>
-                    <h3>Alcoy</h3>
-                    <p>Alicante</p>
-                    <a href="#">Ver fiesta →</a>
-                </article>
+    <div class="fiestas" id="proximas-fiestas"></div>
 
-                <article class="tarjeta-fiesta">
-                    <p class="fecha">1 — 5 MAYO</p>
-                    <h3>Villena</h3>
-                    <p>Alicante</p>
-                    <a href="#">Ver fiesta →</a>
-                </article>
-
-                <article class="tarjeta-fiesta">
-                    <p class="fecha">8 — 11 MAYO</p>
-                    <h3>Bocairent</h3>
-                    <p>Valencia</p>
-                    <a href="#">Ver fiesta →</a>
-                </article>
+    <button class="carrusel-boton carrusel-siguiente" id="carrusel-siguiente">→</button>
+</div>
 
             </div>
         </div>
@@ -85,16 +72,39 @@
    
 <script src="js/app.js"></script>
 </body>
-<!----
 <footer class="pie">
     <div class="contenedor">
-        <p>
-            Fotografía: Enrique Blasco ·
-            <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
-                CC BY 2.0
-            </a>
-        </p>
+
+        <div class="pie-contenido">
+            <p class="pie-logo">MOROS Y CRISTIANOS</p>
+
+            <p class="pie-texto">
+                Calendario y guía de fiestas de Moros y Cristianos en España.
+            </p>
+        </div>
+
+        <div class="pie-atribucion">
+            <p>
+                Fotografía de portada:
+                <a
+                    href="https://commons.wikimedia.org/wiki/File:Moros_y_Cristianos_2014_(14125981594).jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Enrique Blasco
+                </a>
+                ·
+                <a
+                    href="https://creativecommons.org/licenses/by/2.0/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    CC BY 2.0
+                </a>
+            </p>
+        </div>
+
     </div>
 </footer>
--->
+
 </html>
