@@ -1,76 +1,404 @@
-        * {
-            box-sizing: border-box;
-        }
+/* =========================
+   BASE
+========================= */
 
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #111111;
-            color: white;
-            text-align: center;
-        }
+* {
+    box-sizing: border-box;
+}
 
-        .contenedor {
-            width: 90%;
-            max-width: 800px;
-            padding: 40px 20px;
-        }
+html {
+    scroll-behavior: smooth;
+}
 
-        .titulo {
-            font-size: 56px;
-            letter-spacing: 6px;
-            margin: 0;
-            font-weight: 700;
-        }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f3ef;
+    color: #171717;
+}
 
-        .linea {
-            width: 80px;
-            height: 3px;
-            background: white;
-            margin: 25px auto;
-        }
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-        .subtitulo {
-            font-size: 24px;
-            font-weight: 400;
-            margin-bottom: 30px;
-        }
 
-        .texto {
-            font-size: 18px;
-            line-height: 1.7;
-            color: #cccccc;
-            margin-bottom: 35px;
-        }
+/* =========================
+   CABECERA
+========================= */
 
-        .categorias {
-            font-size: 15px;
-            letter-spacing: 2px;
-            color: #aaaaaa;
-        }
+.cabecera {
+    background: #111111;
+    color: white;
+}
 
-        .proximamente {
-            margin-top: 45px;
-            font-size: 14px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
+.cabecera .contenedor {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        @media (max-width: 600px) {
-            .titulo {
-                font-size: 36px;
-                letter-spacing: 4px;
-            }
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
 
-            .subtitulo {
-                font-size: 20px;
-            }
+.navegacion {
+    display: flex;
+    gap: 32px;
+}
 
-            .texto {
-                font-size: 16px;
-            }
-        }
+.navegacion a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.navegacion a:hover {
+    color: white;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
+        url("../assets/images/hero-moros.jpg") center center / cover no-repeat;
+    color: white;
+    padding: 110px 0 120px;
+}
+
+.hero .contenedor {
+    max-width: 900px;
+}
+
+.etiqueta {
+    margin: 0 0 20px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #999999;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: clamp(48px, 7vw, 82px);
+    line-height: 0.98;
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+
+.descripcion {
+    max-width: 600px;
+    margin: 32px 0 40px;
+    color: #bdbdbd;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.proximas {
+    background: #111111;
+    color: white;
+    padding: 80px 0;
+}
+
+.cabecera-seccion a {
+    color: white;
+}
+/* =========================
+   BUSCADOR
+========================= */
+
+.buscador {
+    display: flex;
+    max-width: 650px;
+}
+
+.buscador input {
+    flex: 1;
+    min-width: 0;
+    padding: 18px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buscador button {
+    padding: 18px 28px;
+    border: none;
+    background: white;
+    color: #111111;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.buscador button:hover {
+    background: #dddddd;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    .cabecera .contenedor {
+        min-height: 65px;
+    }
+
+    .navegacion {
+        display: none;
+    }
+
+    .hero {
+        padding: 80px 0 90px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .descripcion {
+        font-size: 17px;
+    }
+
+    .buscador {
+        flex-direction: column;
+    }
+
+    .buscador button {
+        width: 100%;
+    }
+}
+
+
+/* =========================
+   CARRUSEL
+========================= */
+
+.carrusel {
+    position: relative;
+    height: 300px;
+}
+
+.carrusel .fiestas {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carrusel-boton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    width: 44px;
+    height: 44px;
+
+    border: 1px solid #555555;
+    background: transparent;
+    color: white;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.carrusel-boton:hover {
+    background: #222222;
+    border-color: #888888;
+}
+
+.carrusel-anterior {
+    left: 0;
+}
+
+.carrusel-siguiente {
+    right: 0;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjeta-fiesta {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+
+    width: 45%;
+    height: 250px;
+    padding: 36px;
+
+    background: #111111;
+    color: white;
+
+    transform: translateX(-50%);
+
+    transition:
+        transform 0.5s ease,
+        opacity 0.5s ease,
+        scale 0.5s ease;
+}
+
+.tarjeta-fiesta .fecha {
+    margin: 0 0 28px;
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    color: #999999;
+}
+
+.tarjeta-fiesta h3 {
+    margin: 0 0 8px;
+    font-size: 36px;
+}
+
+.tarjeta-fiesta p:not(.fecha) {
+    margin: 0 0 30px;
+    color: #aaaaaa;
+}
+
+.tarjeta-fiesta a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+/* =========================
+   POSICIONES
+========================= */
+
+.tarjeta-fiesta.central {
+    z-index: 3;
+    opacity: 1;
+    scale: 1;
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: none;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta-fiesta.izquierda {
+    z-index: 2;
+    transform: translateX(-120%);
+    opacity: 0.45;
+    scale: 0.88;
+}
+
+.tarjeta-fiesta.derecha {
+    z-index: 2;
+    transform: translateX(20%);
+    opacity: 0.45;
+    scale: 0.88;
+}
+
+.tarjeta-fiesta.oculta {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* =========================
+   MOVIL
+========================= */
+
+@media (max-width: 700px) {
+
+    .carrusel {
+        height: 280px;
+    }
+
+    .carrusel .fiestas {
+        height: 280px;
+    }
+
+    .carrusel-boton {
+        width: 36px;
+        height: 36px;
+    }
+
+    .tarjeta-fiesta {
+        width: 80%;
+        height: 230px;
+        padding: 28px;
+    }
+
+    .tarjeta-fiesta.izquierda {
+        transform: translateX(-115%);
+    }
+
+    .tarjeta-fiesta.derecha {
+        transform: translateX(15%);
+    }
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.pie {
+    background: #111111;
+    color: white;
+    border-top: 1px solid #333333;
+    padding: 50px 0 30px;
+}
+
+.pie-contenido {
+    margin-bottom: 40px;
+}
+
+.pie-logo {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.pie-texto {
+    margin: 0;
+    color: #999999;
+    font-size: 14px;
+}
+
+.pie-atribucion {
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+}
+
+.pie-atribucion p {
+    margin: 0;
+    color: #777777;
+    font-size: 12px;
+}
+
+.pie-atribucion a {
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.pie-atribucion a:hover {
+    color: white;
+}
