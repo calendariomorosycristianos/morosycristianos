@@ -1,0 +1,183 @@
+/* =========================
+   CABECERA DE LA FIESTA
+========================= */
+
+.fiesta-cabecera {
+    padding: 100px 0 90px;
+    background: #f5f5f2;
+}
+
+.fiesta-cabecera h1 {
+    max-width: 900px;
+    margin: 20px 0 15px;
+    font-size: 64px;
+    line-height: 1.05;
+    letter-spacing: -2px;
+}
+
+.fiesta-localizacion {
+    margin: 0 0 35px;
+    color: #666666;
+    font-size: 18px;
+}
+
+.fiesta-fechas {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.fiesta-seccion {
+    padding: 90px 0;
+}
+
+.fiesta-sobre {
+    background: white;
+}
+
+.fiesta-programa {
+    background: #111111;
+    color: white;
+}
+
+.fiesta-enlaces {
+    background: #f5f5f2;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+.fiesta-grid {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 70px;
+}
+
+.fiesta-titulo h2 {
+    margin: 12px 0 0;
+    font-size: 38px;
+    line-height: 1.1;
+}
+
+.fiesta-contenido {
+    max-width: 700px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #444444;
+}
+
+
+/* =========================
+   ACTOS
+========================= */
+
+#actos-fiesta {
+    margin-top: 50px;
+}
+
+.acto {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 40px;
+    padding: 30px 0;
+    border-top: 1px solid #333333;
+}
+
+.acto:last-child {
+    border-bottom: 1px solid #333333;
+}
+
+.acto-fecha {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.acto-info h3 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.acto-info p {
+    margin: 0;
+    color: #aaaaaa;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   ENLACES OFICIALES
+========================= */
+
+.enlaces-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.enlaces-lista a {
+    padding: 14px 20px;
+    border: 1px solid #cccccc;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.enlaces-lista a:hover {
+    background: #111111;
+    color: white;
+}
+
+
+/* =========================
+   RESPONSIVE FICHA
+========================= */
+
+@media (max-width: 700px) {
+
+    .fiesta-cabecera {
+        padding: 70px 0;
+    }
+
+    .fiesta-cabecera h1 {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+
+    .fiesta-fechas {
+        font-size: 20px;
+    }
+
+    .fiesta-seccion {
+        padding: 65px 0;
+    }
+
+    .fiesta-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .fiesta-titulo h2 {
+        font-size: 32px;
+    }
+
+    .acto {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .acto-info h3 {
+        font-size: 21px;
+    }
+
+}
