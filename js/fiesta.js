@@ -3,12 +3,21 @@ const fiesta = {
     localidad: "La Font de la Figuera",
     provincia: "Valencia",
     imagen: "../assets/images/hero-moros.jpg",
-    descripcion: "",
-    enlaces: {
-        instagram: "",
-        facebook: "",
-        ayuntamiento: ""
+    descripcion: "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
+   enlaces: {
+    instagram: {
+        url: "",
+        nombre: "Instagram"
     },
+    facebook: {
+        url: "",
+        nombre: "Facebook"
+    },
+    ayuntamiento: {
+        url: "",
+        nombre: "Web oficial"
+    }
+},
     edicion: {
         año: 2026,
         fechaInicio: "5 diciembre",
@@ -18,19 +27,22 @@ const fiesta = {
                 fecha: "5 diciembre",
                 hora: "20:00",
                 nombre: "Acto de ejemplo",
-                descripcion: "Descripción del acto de ejemplo."
+                descripcion: "Descripción del acto de ejemplo.",
+                destacado: false
             },
             {
                 fecha: "6 diciembre",
                 hora: "12:00",
                 nombre: "Desfile de ejemplo",
-                descripcion: "Descripción del desfile de ejemplo."
+                descripcion: "Descripción del desfile de ejemplo.",
+                destacado: true
             },
             {
                 fecha: "7 diciembre",
                 hora: "18:00",
                 nombre: "Entrada de ejemplo",
-                descripcion: "Descripción de la entrada de ejemplo."
+                descripcion: "Descripción de la entrada de ejemplo.",
+                destacado: true
             }
         ]
     }
@@ -100,15 +112,38 @@ if (fiesta.descripcion) {
 const contenedorActos =
     document.getElementById("actos-fiesta");
 
+    let fechaActual = null;
+let contenedorDia = null;
+
 fiesta.edicion.actos.forEach(acto => {
+
+    // Si cambia el día, creamos un nuevo bloque
+    if (acto.fecha !== fechaActual) {
+
+        fechaActual = acto.fecha;
+
+        contenedorDia = document.createElement("div");
+        contenedorDia.classList.add("programa-dia");
+
+        const tituloDia = document.createElement("h3");
+        tituloDia.classList.add("programa-dia-titulo");
+        tituloDia.textContent = acto.fecha;
+
+        contenedorDia.appendChild(tituloDia);
+        contenedorActos.appendChild(contenedorDia);
+    }
 
     const elemento = document.createElement("article");
 
     elemento.classList.add("acto");
 
+    if (acto.destacado) {
+        elemento.classList.add("acto-destacado");
+    }
+
     elemento.innerHTML = `
         <div class="acto-fecha">
-            ${acto.fecha} · ${acto.hora}
+            ${acto.hora}
         </div>
 
         <div class="acto-info">
@@ -117,7 +152,7 @@ fiesta.edicion.actos.forEach(acto => {
         </div>
     `;
 
-    contenedorActos.appendChild(elemento);
+    contenedorDia.appendChild(elemento);
 
 });
 
