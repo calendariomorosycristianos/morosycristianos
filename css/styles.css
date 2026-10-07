@@ -142,3 +142,74 @@ body {
     }
 
 }
+
+/* =========================
+   PÁGINA 404
+========================= */
+.error-404 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background: #eeeae2;
+}
+
+.error-404 .contenedor {
+    max-width: 800px;
+}
+
+.error-404 .etiqueta {
+    margin-bottom: 12px;
+}
+
+.error-404 h1 {
+    margin: 0 0 20px;
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.error-404 p:not(.etiqueta) {
+    max-width: 600px;
+    margin: 0 0 35px;
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.error-404-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.error-404-enlaces a {
+    display: inline-block;
+    padding: 13px 20px;
+    background: #171717;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.error-404-enlaces a:hover {
+    background: #333333;
+}
+
+@media (max-width: 700px) {
+
+    .error-404 {
+        padding: 50px 0;
+    }
+
+    .error-404-enlaces {
+        flex-direction: column;
+    }
+
+    .error-404-enlaces a {
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+}

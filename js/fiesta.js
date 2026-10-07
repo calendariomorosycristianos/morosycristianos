@@ -12,9 +12,9 @@ fetch("../datos/fiestas.json")
     );
 
     if (!fiesta) {
-      console.error("No se ha encontrado la fiesta.");
-      return;
-    }
+    window.location.href = "../404.html";
+    return;
+}
 
     cargarFiesta();
 
