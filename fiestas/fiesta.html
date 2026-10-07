@@ -1,256 +1,144 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Moros y Cristianos</title>
 
-    <link
-        rel="stylesheet"
-        href="../css/styles.css"
-    >
+    <link rel="stylesheet" href="../css/styles.css" />
 
-    <link
-        rel="stylesheet"
-        href="../css/fiesta.css"
-    >
+    <link rel="stylesheet" href="../css/fiesta.css" />
+  </head>
 
-</head>
-
-
-<body>
-
-
+  <body>
     <!-- =========================
          CABECERA GENERAL
     ========================== -->
 
     <header class="cabecera">
+      <div class="contenedor">
+        <a href="../index.html" class="logo"> MOROS Y CRISTIANOS </a>
 
-        <div class="contenedor">
-
-            <a
-                href="../index.html"
-                class="logo"
-            >
-                MOROS Y CRISTIANOS
-            </a>
-
-            <nav class="navegacion">
-
-                <a href="../index.html">
-                    Inicio
-                </a>
-
-                <a href="#">
-                    Calendario
-                </a>
-
-                <a href="#">
-                    Localidades
-                </a>
-
-            </nav>
-
-        </div>
-
+        <nav class="navegacion">
+          <a href="../index.html">Inicio</a>
+          <a href="../localidades.html">Fiestas y localidades</a>
+          <a href="#">Calendario</a>
+        </nav>
+      </div>
     </header>
 
-
     <main>
-
-
-        <!-- =========================
+      <!-- =========================
              CABECERA DE LA FIESTA
         ========================== -->
 
-        <section class="fiesta-cabecera">
+      <section class="fiesta-cabecera">
+        <div class="contenedor">
+          <h1 id="nombre-fiesta">Nombre de la fiesta</h1>
 
-            <div class="contenedor">
+          <p class="fiesta-localizacion" id="localizacion-fiesta">
+            Localidad · Provincia
+          </p>
 
-                <h1 id="nombre-fiesta">
-                    Nombre de la fiesta
-                </h1>
+          <p class="fiesta-fechas" id="fechas-fiesta">
+            Del 5 al 8 de diciembre
+          </p>
+        </div>
+      </section>
 
-                <p
-                    class="fiesta-localizacion"
-                    id="localizacion-fiesta"
-                >
-                    Localidad · Provincia
-                </p>
-
-                <p
-                    class="fiesta-fechas"
-                    id="fechas-fiesta"
-                >
-                    Del 5 al 8 de diciembre
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
+      <!-- =========================
              PROGRAMA
         ========================== -->
 
-        <section class="fiesta-seccion fiesta-programa">
+      <section class="fiesta-seccion fiesta-programa">
+        <div class="contenedor">
+          <div class="fiesta-titulo">
+            <p class="etiqueta">PROGRAMA</p>
 
-            <div class="contenedor">
+            <h2>Programa de actos</h2>
+          </div>
 
-                <div class="fiesta-titulo">
+          <div id="actos-fiesta"></div>
+        </div>
+      </section>
 
-                    <p class="etiqueta">
-                        PROGRAMA
-                    </p>
-
-                    <h2>
-                        Programa de actos
-                    </h2>
-
-                </div>
-
-                <div id="actos-fiesta"></div>
-
-            </div>
-
-        </section>
-
-
-   <!-- =========================
+      <!-- =========================
      SOBRE LA FIESTA
 ========================== -->
 
-<section class="fiesta-seccion fiesta-sobre">
-
-    <div class="contenedor fiesta-grid">
-
-        <div class="fiesta-titulo">
-
+      <section class="fiesta-seccion fiesta-sobre">
+        <div class="contenedor fiesta-grid">
+          <div class="fiesta-titulo">
             <div class="fiesta-titulo-texto">
+              <p class="etiqueta">LA FIESTA</p>
 
-                <p class="etiqueta">
-                    LA FIESTA
-                </p>
-
-                <h2>
-                    Sobre la fiesta
-                </h2>
-
+              <h2>Sobre la fiesta</h2>
             </div>
+          </div>
 
+          <div class="fiesta-contenido" id="descripcion-fiesta"></div>
         </div>
+      </section>
 
-        <div
-            class="fiesta-contenido"
-            id="descripcion-fiesta"
-        >
-        </div>
-
-    </div>
-
-</section>
-
-
-        <!-- =========================
+      <!-- =========================
              INFORMACIÓN OFICIAL
         ========================== -->
 
-        <section class="fiesta-seccion fiesta-enlaces">
+      <section class="fiesta-seccion fiesta-enlaces">
+        <div class="contenedor fiesta-grid">
+          <div class="fiesta-titulo">
+            <p class="etiqueta">OFICIAL</p>
 
-            <div class="contenedor fiesta-grid">
+            <h2>Información oficial</h2>
+          </div>
 
-                <div class="fiesta-titulo">
-
-                    <p class="etiqueta">
-                        OFICIAL
-                    </p>
-
-                    <h2>
-                        Información oficial
-                    </h2>
-
-                </div>
-
-                <div
-                    class="enlaces-lista"
-                    id="enlaces-fiesta"
-                >
-
-                </div>
-
-            </div>
-
-        </section>
-
-
+          <div class="enlaces-lista" id="enlaces-fiesta"></div>
+        </div>
+      </section>
     </main>
-
 
     <!-- =========================
          FOOTER
     ========================== -->
 
     <footer class="pie">
+      <div class="contenedor">
+        <div class="pie-contenido">
+          <p class="pie-logo">MOROS Y CRISTIANOS</p>
 
-        <div class="contenedor">
-
-            <div class="pie-contenido">
-
-                <p class="pie-logo">
-                    MOROS Y CRISTIANOS
-                </p>
-
-                <p class="pie-texto">
-                    Calendario y guía de fiestas de Moros y Cristianos en España.
-                </p>
-
-            </div>
-
-            <div class="pie-atribucion">
-
-                <p>
-
-                    Fotografía de portada:
-
-                    <a
-                        href="https://commons.wikimedia.org/wiki/File:Moros_y_Cristianos_2014_(14125981594).jpg"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Enrique Blasco
-                    </a>
-
-                    ·
-
-                    <a
-                        href="https://creativecommons.org/licenses/by/2.0/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        CC BY 2.0
-                    </a>
-
-                </p>
-
-            </div>
-
+          <p class="pie-texto">
+            Calendario y guía de fiestas de Moros y Cristianos en España.
+          </p>
         </div>
 
+        <div class="pie-atribucion">
+          <p>
+            Fotografía de portada:
+
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Moros_y_Cristianos_2014_(14125981594).jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Enrique Blasco
+            </a>
+
+            ·
+
+            <a
+              href="https://creativecommons.org/licenses/by/2.0/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CC BY 2.0
+            </a>
+          </p>
+        </div>
+      </div>
     </footer>
 
-
     <script src="../js/fiesta.js"></script>
-
-</body>
-
+  </body>
 </html>

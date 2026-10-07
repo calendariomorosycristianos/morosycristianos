@@ -38,6 +38,7 @@
 .buscador {
     display: flex;
     max-width: 650px;
+    gap: 8px;
 }
 
 .buscador input {
@@ -52,15 +53,20 @@
 .buscador button {
     padding: 18px 28px;
     border: none;
-    background: white;
-    color: #111111;
+    background: #171717;
+    color: white;
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
 }
 
 .buscador button:hover {
-    background: #dddddd;
+    background: #2b2b2b;
+    transform: translateY(-1px);
 }
 
 

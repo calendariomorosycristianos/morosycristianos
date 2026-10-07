@@ -135,10 +135,21 @@ body {
 
     .cabecera .contenedor {
         min-height: 65px;
+        flex-wrap: wrap;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 
     .navegacion {
-        display: none;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 18px;
+        padding-top: 8px;
+    }
+
+    .navegacion a {
+        font-size: 13px;
     }
 
 }

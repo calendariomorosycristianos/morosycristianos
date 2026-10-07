@@ -26,24 +26,28 @@ const fiestas = [
 ];
 
 const inputBusqueda = document.getElementById("busqueda");
-const botonBuscar = document.getElementById("boton-buscar");
+const formularioBusqueda = document.getElementById("formulario-busqueda");
 const resultadosBusqueda = document.getElementById("resultados-busqueda");
 
-botonBuscar.addEventListener("click", () => {
+formularioBusqueda.addEventListener("submit", (evento) => {
+
+    evento.preventDefault();
+
     const texto = inputBusqueda.value.trim().toLowerCase();
 
     if (!texto) {
-        resultadosBusqueda.textContent = "Escribe una localidad o fiesta.";
+        resultadosBusqueda.textContent =
+            "Escribe una localidad o fiesta.";
         return;
     }
 
-   const resultados = fiestas.filter(fiesta =>
-    fiesta.localidad.toLowerCase().includes(texto)
+    const resultados = fiestas.filter(fiesta =>
+        fiesta.localidad.toLowerCase().includes(texto)
     );
 
-
     if (resultados.length === 0) {
-        resultadosBusqueda.textContent = "No se han encontrado fiestas.";
+        resultadosBusqueda.textContent =
+            "No se han encontrado fiestas.";
         return;
     }
 
@@ -118,7 +122,6 @@ function mostrarProximasFiestas() {
 }
 
 mostrarProximasFiestas();
-
 
 // BOTONES DEL CARRUSEL
 const botonAnterior = document.getElementById("carrusel-anterior");

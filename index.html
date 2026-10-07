@@ -14,10 +14,9 @@
         <a href="index.html" class="logo">MOROS Y CRISTIANOS</a>
 
         <nav class="navegacion">
-            <a href="#">Fiestas</a>
-            <a href="#">Localidades</a>
-            <a href="#">Calendario</a>
-        </nav>
+    <a href="localidades.html">Fiestas y localidades</a>
+    <a href="#">Calendario</a>
+</nav>
     </div>
 </header>
 
@@ -34,14 +33,19 @@
                 de las fiestas de Moros y Cristianos.
             </p>
 
-        <div class="buscador">
-            <input
-                type="text"
-                id="busqueda"
-                placeholder="Buscar localidad o fiesta..."
-                >
-            <button id="boton-buscar">Buscar</button>
-        </div>
+        <form class="buscador" id="formulario-busqueda">
+
+    <input
+        type="text"
+        id="busqueda"
+        placeholder="Busca una localidad..."
+    >
+
+    <button type="submit">
+        Buscar
+    </button>
+
+</form>
 
         <div id="resultados-busqueda"></div>
     </section>
