@@ -1,136 +1,82 @@
-const fiesta = {
-    nombre: "Moros i Cristians i Contrabandistes",
-    localidad: "La Font de la Figuera",
-    provincia: "Valencia",
-    imagen: "../assets/images/hero-moros.jpg",
-    descripcion: "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
-   enlaces: {
-    instagram: {
-        url: "",
-        nombre: "Instagram"
-    },
-    facebook: {
-        url: "",
-        nombre: "Facebook"
-    },
-    ayuntamiento: {
-        url: "",
-        nombre: "Web oficial"
-    }
-},
-    edicion: {
-        año: 2026,
-        fechaInicio: "5 diciembre",
-        fechaFin: "8 diciembre",
-        actos: [
-            {
-                fecha: "5 diciembre",
-                hora: "20:00",
-                nombre: "Acto de ejemplo",
-                descripcion: "Descripción del acto de ejemplo.",
-                destacado: false
-            },
-            {
-                fecha: "6 diciembre",
-                hora: "12:00",
-                nombre: "Desfile de ejemplo",
-                descripcion: "Descripción del desfile de ejemplo.",
-                destacado: true
-            },
-            {
-                fecha: "7 diciembre",
-                hora: "18:00",
-                nombre: "Entrada de ejemplo",
-                descripcion: "Descripción de la entrada de ejemplo.",
-                destacado: true
-            }
-        ]
-    }
-};
+let fiesta = null;
 
+fetch("../datos/fiestas.json")
+  .then((respuesta) => respuesta.json())
+  .then((datos) => {
 
-/* =========================
-   INFORMACIÓN DE LA FIESTA
-========================= */
+    const parametros = new URLSearchParams(window.location.search);
+    const idFiesta = parametros.get("id");
 
-document.getElementById("nombre-fiesta").textContent =
-    fiesta.nombre;
-
-document.getElementById("localizacion-fiesta").textContent =
-    `${fiesta.localidad} · ${fiesta.provincia}`;
-
-
-/* =========================
-   FECHAS
-========================= */
-
-function formatearFechas(fechaInicio, fechaFin) {
-
-    const partesInicio = fechaInicio.split(" ");
-    const partesFin = fechaFin.split(" ");
-
-    const diaInicio = partesInicio[0];
-    const mesInicio = partesInicio[1];
-
-    const diaFin = partesFin[0];
-    const mesFin = partesFin[1];
-
-    if (mesInicio === mesFin) {
-        return `Del ${diaInicio} al ${diaFin} de ${mesInicio}`;
-    }
-
-    return `Del ${diaInicio} de ${mesInicio} al ${diaFin} de ${mesFin}`;
-}
-
-document.getElementById("fechas-fiesta").textContent =
-    formatearFechas(
-        fiesta.edicion.fechaInicio,
-        fiesta.edicion.fechaFin
+    fiesta = datos.find(
+      (elemento) => elemento.id === idFiesta
     );
 
+    if (!fiesta) {
+      console.error("No se ha encontrado la fiesta.");
+      return;
+    }
 
-/* =========================
-   DESCRIPCIÓN
-========================= */
+    cargarFiesta();
 
-const contenedorDescripcion =
-    document.getElementById("descripcion-fiesta");
+  })
+  .catch((error) => {
+    console.error("Error al cargar los datos:", error);
+  });
 
-if (fiesta.descripcion) {
+function cargarFiesta() {
+  /* =========================
+       INFORMACIÓN DE LA FIESTA
+    ========================= */
 
+  document.getElementById("nombre-fiesta").textContent = fiesta.nombre;
+
+  document.getElementById("localizacion-fiesta").textContent =
+    `${fiesta.localidad} · ${fiesta.provincia}`;
+
+  /* =========================
+       FECHAS
+    ========================= */
+
+  document.getElementById("fechas-fiesta").textContent = formatearFechas(
+    fiesta.edicion.fechaInicio,
+    fiesta.edicion.fechaFin,
+  );
+
+  /* =========================
+       DESCRIPCIÓN
+    ========================= */
+
+  const contenedorDescripcion = document.getElementById("descripcion-fiesta");
+
+  if (fiesta.descripcion) {
     contenedorDescripcion.innerHTML = `
-        <p>${fiesta.descripcion}</p>
-    `;
+            <p>${fiesta.descripcion}</p>
+        `;
+  }
 
-}
+  /* =========================
+       PROGRAMA DE ACTOS
+    ========================= */
 
+  const contenedorActos = document.getElementById("actos-fiesta");
 
-/* =========================
-   PROGRAMA DE ACTOS
-========================= */
+  let fechaActual = null;
+  let contenedorDia = null;
 
-const contenedorActos =
-    document.getElementById("actos-fiesta");
-
-    let fechaActual = null;
-let contenedorDia = null;
-
-fiesta.edicion.actos.forEach(acto => {
-
+  fiesta.edicion.actos.forEach((acto) => {
     // Si cambia el día, creamos un nuevo bloque
     if (acto.fecha !== fechaActual) {
+      fechaActual = acto.fecha;
 
-        fechaActual = acto.fecha;
+      contenedorDia = document.createElement("div");
+      contenedorDia.classList.add("programa-dia");
 
-        contenedorDia = document.createElement("div");
-        contenedorDia.classList.add("programa-dia");
+      const tituloDia = document.createElement("h3");
+      tituloDia.classList.add("programa-dia-titulo");
+      tituloDia.textContent = acto.fecha;
 
-        const tituloDia = document.createElement("h3");
-        tituloDia.classList.add("programa-dia-titulo");
-        tituloDia.textContent = acto.fecha;
-
-        contenedorDia.appendChild(tituloDia);
-        contenedorActos.appendChild(contenedorDia);
+      contenedorDia.appendChild(tituloDia);
+      contenedorActos.appendChild(contenedorDia);
     }
 
     const elemento = document.createElement("article");
@@ -138,63 +84,100 @@ fiesta.edicion.actos.forEach(acto => {
     elemento.classList.add("acto");
 
     if (acto.destacado) {
-        elemento.classList.add("acto-destacado");
+      elemento.classList.add("acto-destacado");
     }
 
     elemento.innerHTML = `
-        <div class="acto-fecha">
-            ${acto.hora}
-        </div>
+            <div class="acto-fecha">
+                ${acto.hora}
+            </div>
 
-        <div class="acto-info">
-            <h3>${acto.nombre}</h3>
-            <p>${acto.descripcion}</p>
-        </div>
-    `;
+            <div class="acto-info">
+                <h3>${acto.nombre}</h3>
+                <p>${acto.descripcion}</p>
+            </div>
+        `;
 
     contenedorDia.appendChild(elemento);
+  });
 
-});
+  /* =========================
+       ENLACES OFICIALES
+    ========================= */
 
+  const contenedorEnlaces = document.getElementById("enlaces-fiesta");
 
-/* =========================
-   ENLACES OFICIALES
-========================= */
+  console.log("ENLACES:", fiesta.enlaces);
 
-const contenedorEnlaces =
-    document.getElementById("enlaces-fiesta");
-
-const enlaces = [
+  const enlaces = [
     {
-        nombre: "Ayuntamiento",
-        url: fiesta.enlaces.ayuntamiento
+      nombre: "Instagram",
+      url: fiesta.enlaces.instagram,
+      icono: "../assets/icons/instagram.svg",
     },
     {
-        nombre: "Instagram",
-        url: fiesta.enlaces.instagram
+      nombre: "Facebook",
+      url: fiesta.enlaces.facebook,
+      icono: "../assets/icons/facebook.svg",
     },
     {
-        nombre: "Facebook",
-        url: fiesta.enlaces.facebook
-    }
-];
+      nombre: "Web oficial",
+      url: fiesta.enlaces.ayuntamiento,
+      icono: "../assets/icons/web.svg",
+    },
+  ];
 
-enlaces.forEach(enlace => {
-
+  enlaces.forEach((enlace) => {
     if (!enlace.url) {
-        return;
+      return;
     }
 
     const elemento = document.createElement("a");
 
     elemento.href = enlace.url;
-    elemento.textContent = enlace.nombre;
-    elemento.target = "_blank";
     elemento.rel = "noopener noreferrer";
 
+    elemento.innerHTML = `
+        <img
+            src="${enlace.icono}"
+            alt=""
+            class="enlace-icono"
+        >
+
+        <span>
+            ${enlace.nombre}
+        </span>
+    `;
+
     contenedorEnlaces.appendChild(elemento);
+    console.log("ENLACE CREADO:", elemento.outerHTML);
+  });
 
-});
+  /* =========================
+       IMAGEN DE CABECERA
+    ========================= */
 
-document.querySelector(".fiesta-cabecera").style.backgroundImage =
+  document.querySelector(".fiesta-cabecera").style.backgroundImage =
     `url("${fiesta.imagen}")`;
+}
+
+/* =========================
+   FORMATEAR FECHAS
+========================= */
+
+function formatearFechas(fechaInicio, fechaFin) {
+  const partesInicio = fechaInicio.split(" ");
+  const partesFin = fechaFin.split(" ");
+
+  const diaInicio = partesInicio[0];
+  const mesInicio = partesInicio[1];
+
+  const diaFin = partesFin[0];
+  const mesFin = partesFin[1];
+
+  if (mesInicio === mesFin) {
+    return `Del ${diaInicio} al ${diaFin} de ${mesInicio}`;
+  }
+
+  return `Del ${diaInicio} de ${mesInicio} al ${diaFin} de ${mesFin}`;
+}

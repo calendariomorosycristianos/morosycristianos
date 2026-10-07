@@ -1,0 +1,84 @@
+[
+  {
+    "id": "la-font-de-la-figuera",
+    "nombre": "Moros i Cristians i Contrabandistes",
+    "localidad": "La Font de la Figuera",
+    "provincia": "Valencia",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
+    "enlaces": {
+      "instagram": "https://www.instagram.com/miciclafont?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+      "facebook": "https://www.facebook.com/confrariajunta.festersdesantabarbara",
+      "ayuntamiento": "https://www.lafontdelafiguera.es/"
+    },
+    "edicion": {
+      "año": 2026,
+      "fechaInicio": "5 diciembre",
+      "fechaFin": "8 diciembre",
+      "actos": [
+        {
+          "fecha": "5 diciembre",
+          "hora": "20:00",
+          "nombre": "Acto de ejemplo",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": false
+        },
+        {
+          "fecha": "6 diciembre",
+          "hora": "12:00",
+          "nombre": "Desfile de ejemplo",
+          "descripcion": "Descripción del desfile de ejemplo.",
+          "destacado": true
+        },
+        {
+          "fecha": "7 diciembre",
+          "hora": "18:00",
+          "nombre": "Entrada de ejemplo",
+          "descripcion": "Descripción de la entrada de ejemplo.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "almansa",
+    "nombre": "Moros i Cristianos",
+    "localidad": "Almansa",
+    "provincia": "Albacete",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Los Moros y Cristianos de Almansa son una de las fiestas de comparsas más importantes de la provincia de Albacete.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "https://www.facebook.com/",
+      "ayuntamiento": "https://www.google.com/"
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "30 abril",
+      "fechaFin": "6 mayo",
+      "actos": [
+        {
+          "fecha": "30 abril",
+          "hora": "23:30",
+          "nombre": "Gran Retreta",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": false
+        },
+        {
+          "fecha": "1 mayo",
+          "hora": "12:00",
+          "nombre": "Entrada de bandas y pregón",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": true
+        },
+        {
+          "fecha": "1 mayo",
+          "hora": "19:00",
+          "nombre": "Gran Entrada Cristiana",
+          "descripcion": "Descripción de la entrada de ejemplo.",
+          "destacado": true
+        }
+      ]
+    }
+  }
+]
