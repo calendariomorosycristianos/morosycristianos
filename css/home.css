@@ -3,33 +3,32 @@
 ========================= */
 
 .hero {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
-        url("../assets/images/hero-moros.jpg") center center / cover no-repeat;
-    color: white;
-    padding: 110px 0 120px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
+    url("../assets/images/hero-moros.jpg") center center / cover no-repeat;
+  color: white;
+  padding: 110px 0 120px;
 }
 
 .hero .contenedor {
-    max-width: 900px;
+  max-width: 900px;
 }
 
 .hero h1 {
-    margin: 0;
-    font-size: clamp(48px, 7vw, 82px);
-    line-height: 0.98;
-    letter-spacing: -2px;
-    font-weight: 700;
+  margin: 0;
+  font-size: clamp(48px, 7vw, 82px);
+  line-height: 0.98;
+  letter-spacing: -2px;
+  font-weight: 700;
 }
 
 .descripcion {
-    max-width: 600px;
-    margin: 32px 0 40px;
-    color: #bdbdbd;
-    font-size: 19px;
-    line-height: 1.6;
+  max-width: 600px;
+  margin: 32px 0 40px;
+  color: #bdbdbd;
+  font-size: 19px;
+  line-height: 1.6;
 }
-
 
 /* =========================
    BUSCADOR
@@ -41,9 +40,14 @@
     gap: 8px;
 }
 
-.buscador input {
+.buscador-campo {
+    position: relative;
     flex: 1;
     min-width: 0;
+}
+
+.buscador input {
+    width: 100%;
     padding: 18px 20px;
     border: none;
     outline: none;
@@ -71,196 +75,258 @@
 
 
 /* =========================
+   AUTOCOMPLETADO
+========================= */
+
+#resultados-autocompletado {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 6px;
+    z-index: 20;
+}
+
+.resultado-autocompletado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 14px 18px;
+
+    background: #ffffff;
+    color: #171717;
+    text-decoration: none;
+
+    border-bottom: 1px solid #e5e5e5;
+
+    transition: background 0.2s ease;
+}
+
+.resultado-autocompletado:first-child {
+    border-radius: 3px 3px 0 0;
+}
+
+.resultado-autocompletado:last-child {
+    border-radius: 0 0 3px 3px;
+    border-bottom: none;
+}
+
+.resultado-autocompletado strong {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.resultado-autocompletado span {
+    color: #777777;
+    font-size: 14px;
+}
+
+.resultado-autocompletado:hover {
+    background: #f1efeb;
+}
+
+/* =========================
    PRÓXIMAS FIESTAS
 ========================= */
 
 .proximas {
-    background: #111111;
-    color: white;
-    padding: 80px 0;
+  background: #111111;
+  color: white;
+  padding: 80px 0;
 }
 
 .cabecera-seccion a {
-    color: white;
+  color: white;
 }
-
 
 /* =========================
    CARRUSEL
 ========================= */
 
 .carrusel {
-    position: relative;
-    height: 300px;
+  position: relative;
+  height: 300px;
 }
 
 .carrusel .fiestas {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
 .carrusel-boton {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    width: 44px;
-    height: 44px;
-    border: 1px solid #555555;
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background 0.2s ease, border-color 0.2s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #555555;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .carrusel-boton:hover {
-    background: #222222;
-    border-color: #888888;
+  background: #222222;
+  border-color: #888888;
 }
 
 .carrusel-anterior {
-    left: 0;
+  left: 0;
 }
 
 .carrusel-siguiente {
-    right: 0;
+  right: 0;
 }
-
 
 /* =========================
    TARJETAS
 ========================= */
 
 .tarjeta-fiesta {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    width: 45%;
-    height: 250px;
-    padding: 36px;
-    background: #111111;
-    color: white;
-    transform: translateX(-50%);
-    transition:
-        transform 0.5s ease,
-        opacity 0.5s ease,
-        scale 0.5s ease;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 45%;
+  height: 250px;
+  padding: 36px;
+  background: #111111;
+  color: white;
+  transform: translateX(-50%);
+  transition:
+    transform 0.5s ease,
+    opacity 0.5s ease,
+    scale 0.5s ease;
 }
 
 .tarjeta-fiesta .fecha {
-    margin: 0 0 28px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: #999999;
+  margin: 0 0 28px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #999999;
 }
 
 .tarjeta-fiesta h3 {
-    margin: 0 0 8px;
-    font-size: 36px;
+  margin: 0 0 8px;
+  font-size: 36px;
 }
 
 .tarjeta-fiesta p:not(.fecha) {
-    margin: 0 0 30px;
-    color: #aaaaaa;
+  margin: 0 0 30px;
+  color: #aaaaaa;
 }
 
 .tarjeta-fiesta a {
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
 }
-
 
 /* =========================
    POSICIONES DEL CARRUSEL
 ========================= */
 
 .tarjeta-fiesta.central {
-    z-index: 3;
-    opacity: 1;
-    scale: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    transform: none;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  z-index: 3;
+  opacity: 1;
+  scale: 1;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: none;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .tarjeta-fiesta.izquierda {
-    z-index: 2;
-    transform: translateX(-120%);
-    opacity: 0.45;
-    scale: 0.88;
+  z-index: 2;
+  transform: translateX(-120%);
+  opacity: 0.45;
+  scale: 0.88;
 }
 
 .tarjeta-fiesta.derecha {
-    z-index: 2;
-    transform: translateX(20%);
-    opacity: 0.45;
-    scale: 0.88;
+  z-index: 2;
+  transform: translateX(20%);
+  opacity: 0.45;
+  scale: 0.88;
 }
 
 .tarjeta-fiesta.oculta {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
-
 
 /* =========================
    RESPONSIVE HOME
 ========================= */
 
 @media (max-width: 700px) {
+  .hero {
+    padding: 80px 0 90px;
+  }
 
-    .hero {
-        padding: 80px 0 90px;
-    }
+  .hero h1 {
+    font-size: 48px;
+  }
 
-    .hero h1 {
-        font-size: 48px;
-    }
+  .descripcion {
+    font-size: 17px;
+  }
 
-    .descripcion {
-        font-size: 17px;
-    }
+.buscador {
+    flex-direction: column;
+}
 
-    .buscador {
-        flex-direction: column;
-    }
+.buscador button {
+    width: 100%;
+}
 
-    .buscador button {
-        width: 100%;
-    }
+  .carrusel {
+    height: 280px;
+  }
 
-    .carrusel {
-        height: 280px;
-    }
+  .carrusel .fiestas {
+    height: 280px;
+  }
 
-    .carrusel .fiestas {
-        height: 280px;
-    }
+  .carrusel-boton {
+    width: 36px;
+    height: 36px;
+  }
 
-    .carrusel-boton {
-        width: 36px;
-        height: 36px;
-    }
+  .tarjeta-fiesta {
+    width: 80%;
+    height: 230px;
+    padding: 28px;
+  }
 
-    .tarjeta-fiesta {
-        width: 80%;
-        height: 230px;
-        padding: 28px;
-    }
+  .tarjeta-fiesta.izquierda {
+    transform: translateX(-115%);
+  }
 
-    .tarjeta-fiesta.izquierda {
-        transform: translateX(-115%);
-    }
+  .tarjeta-fiesta.derecha {
+    transform: translateX(15%);
+  }
 
-    .tarjeta-fiesta.derecha {
-        transform: translateX(15%);
-    }
+ #resultados-autocompletado {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 6px;
+    z-index: 20;
+}
 
+  .resultado-autocompletado {
+    padding: 14px 16px;
+  }
 }

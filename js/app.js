@@ -28,6 +28,37 @@ const fiestas = [
 const inputBusqueda = document.getElementById("busqueda");
 const formularioBusqueda = document.getElementById("formulario-busqueda");
 const resultadosBusqueda = document.getElementById("resultados-busqueda");
+const resultadosAutocompletado = document.getElementById("resultados-autocompletado");
+
+inputBusqueda.addEventListener("input", () => {
+
+    const texto =
+        inputBusqueda.value.trim().toLowerCase();
+
+    resultadosAutocompletado.innerHTML = "";
+
+    if (!texto) {
+        return;
+    }
+
+   const resultados = fiestas
+    .filter(fiesta =>
+        fiesta.localidad.toLowerCase().startsWith(texto)
+    )
+    .slice(0, 3);
+
+   resultadosAutocompletado.innerHTML = resultados
+    .map(fiesta => `
+        <a
+            href="fiestas/fiesta.html?id=${fiesta.id}"
+            class="resultado-autocompletado"
+        >
+            <strong>${fiesta.localidad}</strong>
+            <span>${fiesta.provincia}</span>
+        </a>
+    `)
+    .join("");
+});
 
 formularioBusqueda.addEventListener("submit", (evento) => {
 

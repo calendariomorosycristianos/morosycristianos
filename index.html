@@ -33,19 +33,27 @@
                 de las fiestas de Moros y Cristianos.
             </p>
 
-        <form class="buscador" id="formulario-busqueda">
+<form class="buscador" id="formulario-busqueda">
 
-    <input
-        type="text"
-        id="busqueda"
-        placeholder="Busca una localidad..."
-    >
+    <div class="buscador-campo">
+
+        <input
+            type="text"
+            id="busqueda"
+            placeholder="Busca una localidad..."
+        >
+
+        <div id="resultados-autocompletado"></div>
+
+    </div>
 
     <button type="submit">
         Buscar
     </button>
 
 </form>
+
+<div id="resultados-autocompletado"></div>
 
         <div id="resultados-busqueda"></div>
     </section>
