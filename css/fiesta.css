@@ -1,0 +1,408 @@
+/* =========================
+   CABECERA DE LA FIESTA
+========================= */
+
+.fiesta-cabecera {
+    position: relative;
+    min-height: 440px;
+    display: flex;
+    align-items: flex-end;
+    padding: 70px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.fiesta-cabecera::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.15)
+        );
+}
+
+.fiesta-cabecera .contenedor {
+    position: relative;
+    z-index: 1;
+}
+
+.fiesta-cabecera h1 {
+    max-width: 900px;
+    margin: 12px 0 12px;
+
+    color: white;
+
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.fiesta-cabecera .etiqueta {
+    color: #dddddd;
+}
+
+.fiesta-localizacion {
+    margin: 0 0 18px;
+    color: #eeeeee;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.fiesta-fechas {
+    margin: 0;
+
+    color: white;
+
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.fiesta-seccion {
+    padding: 80px 0;
+    border-top: 1px solid #e2dfd9;
+}
+
+.fiesta-programa {
+    background: #eeeae2;
+    border-top: none;
+}
+
+.fiesta-sobre {
+    background: #ffffff;
+}
+
+.fiesta-enlaces {
+    background: #e5e1d9;
+}
+
+
+/* =========================
+   TITULOS DE SECCION
+========================= */
+
+.fiesta-titulo {
+    margin-bottom: 35px;
+}
+
+.fiesta-titulo .etiqueta {
+    margin-bottom: 8px;
+}
+
+.fiesta-titulo h2 {
+    margin: 0;
+
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+
+
+/* =========================
+   PROGRAMA
+========================= */
+
+#actos-fiesta {
+    max-width: 900px;
+}
+
+
+/* Cada acto */
+
+.acto {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    padding: 24px 20px 24px 25px;
+    border-top: 1px solid #dddddd;
+    border-left: 5px solid transparent;
+}
+
+.acto:last-child {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+/* Fecha y hora */
+
+.acto-fecha {
+    padding-top: 3px;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+/* Información del acto */
+
+.acto-info h3 {
+    margin: 0 0 6px;
+
+    color: #171717;
+
+    font-size: 21px;
+    line-height: 1.25;
+}
+
+.acto-info p {
+    margin: 0;
+
+    color: #666666;
+
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* =========================
+   DÍAS DEL PROGRAMA
+========================= */
+
+.programa-dia {
+    margin-bottom: 45px;
+}
+
+.programa-dia-titulo {
+    margin: 0 0 18px;
+    color: #171717;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================
+   SOBRE LA FIESTA
+========================= */
+
+.fiesta-grid {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.fiesta-titulo-texto {
+    max-width: 260px;
+}
+
+.fiesta-contenido {
+    max-width: 720px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.fiesta-contenido p {
+    margin: 0 0 20px;
+}
+
+.fiesta-contenido p:last-child {
+    margin-bottom: 0;
+}
+
+
+ /* =========================
+    INFORMACIÓN OFICIAL
+ ========================= */
+
+.enlaces-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.enlaces-lista a {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    min-height: 48px;
+    padding: 12px 18px;
+
+    background: #ffffff;
+    border: 1px solid #d6d2ca;
+
+    color: #222222;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.enlaces-lista a:hover {
+    background: #f8f6f1;
+    border-color: #aaa59c;
+    transform: translateY(-1px);
+}
+
+.enlace-icono {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+/* =========================
+   ACTOS DESTACADOS
+========================= */
+
+.acto-destacado {
+    margin: 10px 0;
+    padding: 24px 20px 24px 20px;
+    background: #f8eeee;
+    border-left: 5px solid #9b2c2c;
+    border-radius: 4px;
+}
+
+.acto-destacado .acto-fecha {
+    color: #9b2c2c;
+}
+
+.acto-destacado .acto-info h3 {
+    color: #7f2020;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.acto-destacado .acto-info p {
+    color: #555555;
+}
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    /* Cabecera */
+
+    .fiesta-cabecera {
+        min-height: 400px;
+        padding: 60px 0 45px;
+
+        background-position: center center;
+    }
+
+    .fiesta-cabecera h1 {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+
+  .fiesta-localizacion {
+    font-size: 20px;
+}
+
+    .fiesta-fechas {
+        font-size: 19px;
+    }
+
+
+    /* Secciones */
+
+    .fiesta-seccion {
+        padding: 50px 0;
+    }
+
+
+    /* Titulos */
+
+    .fiesta-titulo {
+        margin-bottom: 25px;
+    }
+
+    .fiesta-titulo h2 {
+        font-size: 30px;
+    }
+
+
+    /* Programa */
+
+    .acto {
+        grid-template-columns: 1fr;
+        gap: 7px;
+
+        padding: 20px 0;
+    }
+
+    .acto-fecha {
+        padding-top: 0;
+    }
+
+    .acto-info h3 {
+        font-size: 20px;
+    }
+
+    .acto-info p {
+        font-size: 15px;
+    }
+
+
+    /* Sobre la fiesta */
+
+   .fiesta-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.fiesta-titulo-texto {
+    max-width: none;
+}
+
+.fiesta-contenido {
+    font-size: 17px;
+}
+
+    .fiesta-contenido {
+        font-size: 17px;
+    }
+
+
+    /* Enlaces */
+
+    .enlaces-lista {
+        flex-direction: column;
+    }
+
+    .enlaces-lista a {
+        width: 100%;
+    }
+
+    .acto-destacado {
+    padding: 22px 16px 22px 26px;
+}
+}
+
+.enlace-icono {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.enlace-icono svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}

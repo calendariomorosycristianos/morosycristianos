@@ -1,0 +1,3224 @@
+[
+    {
+        "ine": "12069",
+        "nombre": "Higueras",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12070",
+        "nombre": "La Jana",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12071",
+        "nombre": "Jérica",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12074",
+        "nombre": "La Llosa",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12072",
+        "nombre": "Lucena del Cid",
+        "alias": "Llucena",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12073",
+        "nombre": "Ludiente",
+        "alias": "Lludient",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12075",
+        "nombre": "La Mata de Morella",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12076",
+        "nombre": "Matet",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12077",
+        "nombre": "Moncofar",
+        "alias": "Moncofa",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12078",
+        "nombre": "Montán",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12079",
+        "nombre": "Montanejos",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12080",
+        "nombre": "Morella",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12081",
+        "nombre": "Navajas",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12082",
+        "nombre": "Nules",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12083",
+        "nombre": "Olocau del Rey",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12084",
+        "nombre": "Onda",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12085",
+        "nombre": "Oropesa del Mar",
+        "alias": "Orpesa",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12087",
+        "nombre": "Palanques",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12088",
+        "nombre": "Pavías",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12089",
+        "nombre": "Peñíscola",
+        "alias": "Peníscola",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12090",
+        "nombre": "Pina de Montalgrao",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12093",
+        "nombre": "La Pobla de Benifassà",
+        "alias": "La Puebla de Benifasar",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12091",
+        "nombre": "Portell de Morella",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12092",
+        "nombre": "Puebla de Arenoso",
+        "alias": "La Pobla d'Arenós",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12095",
+        "nombre": "Ribesalbes",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12096",
+        "nombre": "Rossell",
+        "alias": "Rosell",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12097",
+        "nombre": "Sacañet",
+        "alias": "Sacanyet",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12098",
+        "nombre": "La Salzadella",
+        "alias": "Salsadella",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12101",
+        "nombre": "San Rafael del Río",
+        "alias": "Sant Rafel del Riu",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12902",
+        "nombre": "Sant Joan de Moró",
+        "alias": "Sant Joan de Moró",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12099",
+        "nombre": "Sant Jordi",
+        "alias": "San Jorge",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12100",
+        "nombre": "Sant Mateu",
+        "alias": "San Mateo",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12102",
+        "nombre": "Santa Magdalena de Pulpis",
+        "alias": "Santa Magdalena de Polpis",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12104",
+        "nombre": "Segorbe",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12103",
+        "nombre": "La Serratella",
+        "alias": "Sarratella",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12105",
+        "nombre": "Sierra Engarcerán",
+        "alias": "Serra d'en Galceran",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12106",
+        "nombre": "Soneja",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12107",
+        "nombre": "Sot de Ferrer",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12108",
+        "nombre": "Suera",
+        "alias": "Sueras",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12109",
+        "nombre": "Tales",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12110",
+        "nombre": "Teresa",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12111",
+        "nombre": "Tírig",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12112",
+        "nombre": "Todolella",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12113",
+        "nombre": "Toga",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12114",
+        "nombre": "Torás",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12115",
+        "nombre": "El Toro",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12116",
+        "nombre": "Torralba del Pinar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "03002",
+        "nombre": "Agost",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03003",
+        "nombre": "Agres",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03004",
+        "nombre": "Aigües",
+        "alias": "Aguas de Busot",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03014",
+        "nombre": "Alicante",
+        "alias": "Alacant",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03005",
+        "nombre": "Albatera",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03006",
+        "nombre": "Alcalalí",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03009",
+        "nombre": "Alcoy",
+        "alias": "Alcoi",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03008",
+        "nombre": "Alcoleja",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03010",
+        "nombre": "Alfafara",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03011",
+        "nombre": "L'Alfàs del Pi",
+        "alias": "Alfaz del Pi",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03012",
+        "nombre": "Algorfa",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03013",
+        "nombre": "Algueña",
+        "alias": "L'Alguenya",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03016",
+        "nombre": "Almudaina",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03017",
+        "nombre": "L'Alqueria d'Asnar",
+        "alias": "La Alquería de Aznar",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03018",
+        "nombre": "Altea",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03019",
+        "nombre": "Aspe",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03001",
+        "nombre": "Atzúbia, l'",
+        "alias": "Adsubia",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03020",
+        "nombre": "Balones",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03021",
+        "nombre": "Banyeres de Mariola",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03022",
+        "nombre": "Benasau",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03023",
+        "nombre": "Beneixama",
+        "alias": "Benejama",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03024",
+        "nombre": "Benejúzar",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03025",
+        "nombre": "Benferri",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03026",
+        "nombre": "Beniarbeig",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03027",
+        "nombre": "Beniardà",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03028",
+        "nombre": "Beniarrés",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03030",
+        "nombre": "Benidoleig",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03031",
+        "nombre": "Benidorm",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03032",
+        "nombre": "Benifallim",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03033",
+        "nombre": "Benifato",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03029",
+        "nombre": "Benigembla",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03034",
+        "nombre": "Benijófar",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03035",
+        "nombre": "Benilloba",
+        "alias": "Benilloba",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03036",
+        "nombre": "Benillup",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03037",
+        "nombre": "Benimantell",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03038",
+        "nombre": "Benimarfull",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03039",
+        "nombre": "Benimassot",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03040",
+        "nombre": "Benimeli",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03041",
+        "nombre": "Benissa",
+        "alias": "Benisa",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03043",
+        "nombre": "Biar",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03044",
+        "nombre": "Bigastro",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03045",
+        "nombre": "Bolulla",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03046",
+        "nombre": "Busot",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03049",
+        "nombre": "Callosa de Segura",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03047",
+        "nombre": "Calpe",
+        "alias": "Calp",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03051",
+        "nombre": "El Camp de Mirra",
+        "alias": "Campo de Mirra",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03050",
+        "nombre": "El Campello",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03052",
+        "nombre": "Cañada",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03053",
+        "nombre": "Castalla",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03054",
+        "nombre": "Castell de Castells",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03075",
+        "nombre": "El Castell de Guadalest",
+        "alias": "Guadalest",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03055",
+        "nombre": "Catral",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03056",
+        "nombre": "Cocentaina",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03057",
+        "nombre": "Confrides",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03058",
+        "nombre": "Cox",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03061",
+        "nombre": "Daya Nueva",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03062",
+        "nombre": "Daya Vieja",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03063",
+        "nombre": "Dénia",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03064",
+        "nombre": "Dolores",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03066",
+        "nombre": "Elda",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03065",
+        "nombre": "Elche",
+        "alias": "Elx",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03068",
+        "nombre": "Famorca",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03069",
+        "nombre": "Finestrat",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03077",
+        "nombre": "El Fondó de les Neus",
+        "alias": "El Hondón de las Nieves",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03070",
+        "nombre": "Formentera del Segura",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03072",
+        "nombre": "Gaianes",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03071",
+        "nombre": "Gata de Gorgos",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03073",
+        "nombre": "Gorga",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03074",
+        "nombre": "Granja de Rocamora",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03076",
+        "nombre": "Guardamar del Segura",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03078",
+        "nombre": "Hondón de los Frailes",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03079",
+        "nombre": "Ibi",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03080",
+        "nombre": "Jacarilla",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03085",
+        "nombre": "Llíber",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03086",
+        "nombre": "Millena",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03088",
+        "nombre": "Monforte del Cid",
+        "alias": "Monfort del Cid",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03089",
+        "nombre": "Monóvar",
+        "alias": "Monòver",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03903",
+        "nombre": "Los Montesinos",
+        "alias": "Montesinos",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03091",
+        "nombre": "Murla",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03092",
+        "nombre": "Muro de Alcoy",
+        "alias": "Muro de Alcoi",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03090",
+        "nombre": "Mutxamel",
+        "alias": "Mutxamiel",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03094",
+        "nombre": "La Nucia",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03095",
+        "nombre": "Ondara",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03096",
+        "nombre": "Onil",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03097",
+        "nombre": "Orba",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03099",
+        "nombre": "Orihuela",
+        "alias": "Oriola",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03084",
+        "nombre": "L'Orxa",
+        "alias": "Lorcha",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03098",
+        "nombre": "Orxeta",
+        "alias": "Orcheta",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03100",
+        "nombre": "Parcent",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03101",
+        "nombre": "Pedreguer",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03102",
+        "nombre": "Pego",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03103",
+        "nombre": "Penàguila",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03104",
+        "nombre": "Petrer",
+        "alias": "Petrel",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03902",
+        "nombre": "Pilar de la Horadada",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03105",
+        "nombre": "El Pinós",
+        "alias": "Pinoso",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03106",
+        "nombre": "Planes",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03042",
+        "nombre": "Benitachell",
+        "alias": "Poble Nou de Benitatxell",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03901",
+        "nombre": "Els Poblets",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03107",
+        "nombre": "Polop",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03060",
+        "nombre": "Quatretondeta",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03109",
+        "nombre": "Rafal",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03110",
+        "nombre": "El Ràfol d'Almúnia",
+        "alias": "Ráfol de Almunia",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03111",
+        "nombre": "Redován",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03112",
+        "nombre": "Relleu",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03113",
+        "nombre": "Rojales",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03114",
+        "nombre": "La Romana",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03115",
+        "nombre": "Sagra",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03116",
+        "nombre": "Salinas",
+        "alias": "Salines",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03118",
+        "nombre": "San Fulgencio",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03904",
+        "nombre": "San Isidro",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03120",
+        "nombre": "San Miguel de Salinas",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03117",
+        "nombre": "Sanet y Negrals",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03119",
+        "nombre": "Sant Joan d'Alacant",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03122",
+        "nombre": "Sant Vicent del Raspeig",
+        "alias": "San Vicente del Raspeig",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03121",
+        "nombre": "Santa Pola",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03123",
+        "nombre": "Sax",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03124",
+        "nombre": "Sella",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03125",
+        "nombre": "Senija",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03127",
+        "nombre": "Tàrbena",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03128",
+        "nombre": "Teulada",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03129",
+        "nombre": "Tibi",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03130",
+        "nombre": "Tollos",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03131",
+        "nombre": "Tormos",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03132",
+        "nombre": "La Torre de les Maçanes",
+        "alias": "Torremanzanas",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03134",
+        "nombre": "La Vall d'Alcalà",
+        "alias": "Vall de Alcalá",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03135",
+        "nombre": "La Vall d'Ebo",
+        "alias": "Vall de Ebó",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03137",
+        "nombre": "La Vall de Laguar",
+        "alias": "Vall de Laguar",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03138",
+        "nombre": "El Verger",
+        "alias": "Vergel",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03139",
+        "nombre": "La Vila Joiosa",
+        "alias": "Villajoyosa",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03140",
+        "nombre": "Villena",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03081",
+        "nombre": "Xaló",
+        "alias": "Jalón",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03083",
+        "nombre": "Jijona",
+        "alias": "Xixona",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "12002",
+        "nombre": "Aín",
+        "alias": "Ahín",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12003",
+        "nombre": "Albocàsser",
+        "alias": "Albocácer",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12004",
+        "nombre": "Alcalà de Xivert",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12005",
+        "nombre": "L'Alcora",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12006",
+        "nombre": "Alcudia de Veo",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12007",
+        "nombre": "Alfondeguilla",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12008",
+        "nombre": "Algimia de Almonacid",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12009",
+        "nombre": "Almassora",
+        "alias": "Almazora",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12010",
+        "nombre": "Almedíjar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12011",
+        "nombre": "Almenara",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12901",
+        "nombre": "Les Alqueries",
+        "alias": "Alquerías del Niño Perdido",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12013",
+        "nombre": "Arañuel",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12014",
+        "nombre": "Ares del Maestrat",
+        "alias": "Ares del Maestre",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12015",
+        "nombre": "Argelita",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12016",
+        "nombre": "Artana",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12001",
+        "nombre": "Atzeneta del Maestrat",
+        "alias": "Adzaneta",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12017",
+        "nombre": "Ayódar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12018",
+        "nombre": "Azuébar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12020",
+        "nombre": "Barracas",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12022",
+        "nombre": "Bejís",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12024",
+        "nombre": "Benafer",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12025",
+        "nombre": "Benafigos",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12026",
+        "nombre": "Benassal",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12027",
+        "nombre": "Benicarló",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12028",
+        "nombre": "Benicàssim",
+        "alias": "Benicasim",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12029",
+        "nombre": "Benlloch",
+        "alias": "Benlloc",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12021",
+        "nombre": "Betxí",
+        "alias": "Bechií",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12032",
+        "nombre": "Borriana",
+        "alias": "Burriana",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12031",
+        "nombre": "Borriol",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12033",
+        "nombre": "Cabanes",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12034",
+        "nombre": "Càlig",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12036",
+        "nombre": "Canet lo Roig",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12037",
+        "nombre": "Castell de Cabres",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12038",
+        "nombre": "Castellfort",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12039",
+        "nombre": "Castellnovo",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12040",
+        "nombre": "Castelló de la Plana",
+        "alias": "Castellón de la Plana",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12041",
+        "nombre": "Castillo de Villamalefa",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12042",
+        "nombre": "Catí",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12043",
+        "nombre": "Caudiel",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12044",
+        "nombre": "Cervera del Maestre",
+        "alias": "Cervera del Maestrat",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12053",
+        "nombre": "Chilches",
+        "alias": "Xilxes",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12056",
+        "nombre": "Chóvar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12045",
+        "nombre": "Cinctorres",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12046",
+        "nombre": "Cirat",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12048",
+        "nombre": "Cortes de Arenoso",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12049",
+        "nombre": "Costur",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12050",
+        "nombre": "Les Coves de Vinromà",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12051",
+        "nombre": "Culla",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12057",
+        "nombre": "Eslida",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12058",
+        "nombre": "Espadilla",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12059",
+        "nombre": "Fanzara",
+        "alias": "Fanzara",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12060",
+        "nombre": "Figueroles",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12061",
+        "nombre": "Forcall",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12063",
+        "nombre": "Fuente la Reina",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12064",
+        "nombre": "Fuentes de Ayódar",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12065",
+        "nombre": "Gaibiel",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12067",
+        "nombre": "Geldo",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12068",
+        "nombre": "Herbers",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "46237",
+        "nombre": "Tavernes Blanques",
+        "alias": "Tabernes Blanques",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46238",
+        "nombre": "Tavernes de la Valldigna",
+        "alias": "Tabernes de la Valldigna",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46239",
+        "nombre": "Teresa de Cofrentes",
+        "alias": "Teresa de Cofrents",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46240",
+        "nombre": "Terrateig",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46241",
+        "nombre": "Titaguas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46242",
+        "nombre": "Torrebaja",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46243",
+        "nombre": "Torrella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46244",
+        "nombre": "Torrent",
+        "alias": "Torrente",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46245",
+        "nombre": "Torres Torres",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46246",
+        "nombre": "Tous",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46247",
+        "nombre": "Tuéjar",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46248",
+        "nombre": "Turís",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46249",
+        "nombre": "Utiel",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46250",
+        "nombre": "València",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46251",
+        "nombre": "Vallada",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46252",
+        "nombre": "Vallanca",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46253",
+        "nombre": "Vallés",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46254",
+        "nombre": "Venta del Moro",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46255",
+        "nombre": "Vilallonga",
+        "alias": "Villalonga",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46256",
+        "nombre": "Vilamarxant",
+        "alias": "Villamarchante",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46257",
+        "nombre": "Castelló",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46258",
+        "nombre": "Villar del Arzobispo",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46259",
+        "nombre": "Villargordo del Cabriel",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46260",
+        "nombre": "Vinalesa",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46145",
+        "nombre": "Xàtiva",
+        "alias": "Jàtiva",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46143",
+        "nombre": "Xeraco",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46146",
+        "nombre": "Xeresa",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46110",
+        "nombre": "Xirivella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46261",
+        "nombre": "Yátova",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46262",
+        "nombre": "La Yesa",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46263",
+        "nombre": "Zarra",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "03082",
+        "nombre": "Xàbia",
+        "alias": "Jávea",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03048",
+        "nombre": "Callosa d'en Sarrià",
+        "alias": "Callosa de Ensarriá",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03059",
+        "nombre": "Crevillent",
+        "alias": "Crevillente",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "46042",
+        "nombre": "Aielo de Malferit",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46078",
+        "nombre": "Burjassot",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46138",
+        "nombre": "Guadasséquies",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46127",
+        "nombre": "La Font d'en Carròs",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46234",
+        "nombre": "Sot de Chera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46207",
+        "nombre": "Rafelbunyol",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46022",
+        "nombre": "Alfafar",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46074",
+        "nombre": "Bonrepòs i Mirambell",
+        "alias": "Bonrepòs y Mirambell",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46147",
+        "nombre": "Llíria",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46171",
+        "nombre": "Montcada",
+        "alias": "Moncada",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46096",
+        "nombre": "Cerdà",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46126",
+        "nombre": "Foios",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "03133",
+        "nombre": "Torrevieja",
+        "alias": "Torrevella",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "03015",
+        "nombre": "Almoradí",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "46102",
+        "nombre": "Quart de Poblet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46152",
+        "nombre": "Llocnou de la Corona",
+        "alias": "Lugar Nuevo de la Corona",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46191",
+        "nombre": "Pedralba",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46108",
+        "nombre": "Chera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "03093",
+        "nombre": "Novelda",
+        "alias": "",
+        "provincia": "Alicante"
+    },
+    {
+        "ine": "46151",
+        "nombre": "Llocnou d'En Fenollet",
+        "alias": "Lugar Nuevo de Fenollet",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "12120",
+        "nombre": "La Torre d'en Doménec",
+        "alias": "Torre Endoménech",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12117",
+        "nombre": "Torreblanca",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12118",
+        "nombre": "Torrechiva",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12121",
+        "nombre": "Traiguera",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12122",
+        "nombre": "Les Useres",
+        "alias": "Useres",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12124",
+        "nombre": "Vall d'Alba",
+        "alias": "La Vall d'Alba",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12126",
+        "nombre": "La Vall d'Uixó",
+        "alias": "Vall de Uxó",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12125",
+        "nombre": "Vall de Almonacid",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12123",
+        "nombre": "Vallat",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12127",
+        "nombre": "Vallibona",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12135",
+        "nombre": "Vila-real",
+        "alias": "Villareal",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12128",
+        "nombre": "Vilafamés",
+        "alias": "Villafamés",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12129",
+        "nombre": "Vilafranca",
+        "alias": "Villafranca del Cid",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12132",
+        "nombre": "Vilanova d'Alcolea",
+        "alias": "Villanueva de Alcolea",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12134",
+        "nombre": "Vilar de Canes",
+        "alias": "Villar de Canes",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12136",
+        "nombre": "La Vilavella",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12130",
+        "nombre": "Villahermosa del Río",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12131",
+        "nombre": "Villamalur",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12133",
+        "nombre": "Villanueva de Viver",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12137",
+        "nombre": "Villores",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12138",
+        "nombre": "Vinaròs",
+        "alias": "Vinaroz",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12139",
+        "nombre": "Vistabella del Maestrat",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12140",
+        "nombre": "Viver",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12052",
+        "nombre": "Xert",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12055",
+        "nombre": "Xodos",
+        "alias": "Chodos",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12141",
+        "nombre": "Zorita del Maestrazgo",
+        "alias": "",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "12142",
+        "nombre": "Zucaina",
+        "alias": "Zucaina",
+        "provincia": "Castellón"
+    },
+    {
+        "ine": "46132",
+        "nombre": "El Genovés",
+        "alias": "Genovés",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46001",
+        "nombre": "Ademuz",
+        "alias": "Ademús",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46002",
+        "nombre": "Ador",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46004",
+        "nombre": "Agullent",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46043",
+        "nombre": "Aielo de Rugat",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46005",
+        "nombre": "Alaquàs",
+        "alias": "Alacuás",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46006",
+        "nombre": "Albaida",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46007",
+        "nombre": "Albal",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46008",
+        "nombre": "Albalat de la Ribera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46009",
+        "nombre": "Albalat dels Sorells",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46010",
+        "nombre": "Albalat dels Tarongers",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46011",
+        "nombre": "Alberic",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46012",
+        "nombre": "Alborache",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46013",
+        "nombre": "Alboraia",
+        "alias": "Alboraya",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46014",
+        "nombre": "Albuixech",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46016",
+        "nombre": "Alcàntera de Xúquer",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46015",
+        "nombre": "Alcàsser",
+        "alias": "Alcácer",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46018",
+        "nombre": "Alcublas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46020",
+        "nombre": "L'Alcúdia de Crespins",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46019",
+        "nombre": "L'Alcúdia",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46021",
+        "nombre": "Aldaia",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46024",
+        "nombre": "Alfara de la Baronia",
+        "alias": "a",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46025",
+        "nombre": "Alfara del Patriarca",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46026",
+        "nombre": "Alfarb",
+        "alias": "Alfarp",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46027",
+        "nombre": "Alfarrasí",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46023",
+        "nombre": "Alfauir",
+        "alias": "Alfahuir",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46028",
+        "nombre": "Algar de Palància",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46029",
+        "nombre": "Algemesí",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46030",
+        "nombre": "Algímia d'Alfara",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46031",
+        "nombre": "Alginet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46032",
+        "nombre": "Almàssera",
+        "alias": "Almácera",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46033",
+        "nombre": "Almiserà",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46034",
+        "nombre": "Almoines",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46035",
+        "nombre": "Almussafes",
+        "alias": "Almusafes",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46036",
+        "nombre": "Alpuente",
+        "alias": "Alpuente",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46037",
+        "nombre": "L'Alqueria de la Comtessa",
+        "alias": "Alquería de la Condesa",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46017",
+        "nombre": "Alzira",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46038",
+        "nombre": "Andilla",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46039",
+        "nombre": "Anna",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46040",
+        "nombre": "Antella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46041",
+        "nombre": "Aras de los Olmos",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46003",
+        "nombre": "Atzeneta d'Albaida",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46044",
+        "nombre": "Ayora",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46046",
+        "nombre": "Barx",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46045",
+        "nombre": "Barxeta",
+        "alias": "Barcheta",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46047",
+        "nombre": "Bèlgida",
+        "alias": "Bélgida",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46048",
+        "nombre": "Bellreguard",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46049",
+        "nombre": "Bellús",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46050",
+        "nombre": "Benagéber",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46051",
+        "nombre": "Benaguasil",
+        "alias": "Benaguacil",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46052",
+        "nombre": "Benavites",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46053",
+        "nombre": "Beneixida",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46054",
+        "nombre": "Benetússer",
+        "alias": "Benetúser",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46055",
+        "nombre": "Beniarjó",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46056",
+        "nombre": "Beniatjar",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46057",
+        "nombre": "Benicolet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46904",
+        "nombre": "Benicull de Xúquer",
+        "alias": "Benicull",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46060",
+        "nombre": "Benifaió",
+        "alias": "Benifayó",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46059",
+        "nombre": "Benifairó de la Valldigna",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46058",
+        "nombre": "Benifairó de les Valls",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46061",
+        "nombre": "Beniflá",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46062",
+        "nombre": "Benigànim",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46063",
+        "nombre": "Benimodo",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46064",
+        "nombre": "Benimuslem",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46065",
+        "nombre": "Beniparrell",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46066",
+        "nombre": "Benirredrà",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46067",
+        "nombre": "Benissanó",
+        "alias": "Benisanó",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46068",
+        "nombre": "Benissoda",
+        "alias": "Benisoda",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46069",
+        "nombre": "Benissuera",
+        "alias": "Benisuera",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46070",
+        "nombre": "Bétera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46071",
+        "nombre": "Bicorp",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46072",
+        "nombre": "Bocairent",
+        "alias": "Bocairente",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46073",
+        "nombre": "Bolbaite",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46075",
+        "nombre": "Bufali",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46076",
+        "nombre": "Bugarra",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46077",
+        "nombre": "Buñol",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46079",
+        "nombre": "Calles",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46080",
+        "nombre": "Camporrobles",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46081",
+        "nombre": "Canals",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46082",
+        "nombre": "Canet d'En Berenguer",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46083",
+        "nombre": "Carcaixent",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46084",
+        "nombre": "Càrcer",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46085",
+        "nombre": "Carlet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46086",
+        "nombre": "Carrícola",
+        "alias": "Carícola",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46087",
+        "nombre": "Casas Altas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46088",
+        "nombre": "Casas Bajas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46089",
+        "nombre": "Casinos",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46090",
+        "nombre": "Castelló de Rugat",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46091",
+        "nombre": "Castellonet de la Conquesta",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46092",
+        "nombre": "Castielfabib",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46093",
+        "nombre": "Catadau",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46094",
+        "nombre": "Catarroja",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46095",
+        "nombre": "Caudete de las Fuentes",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46107",
+        "nombre": "Chella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46106",
+        "nombre": "Chelva",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46109",
+        "nombre": "Cheste",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46111",
+        "nombre": "Chiva",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46112",
+        "nombre": "Chulilla",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46097",
+        "nombre": "Cofrentes",
+        "alias": "Cofrents",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46098",
+        "nombre": "Corbera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46099",
+        "nombre": "Cortes de Pallás",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46100",
+        "nombre": "Cotes",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46105",
+        "nombre": "Cullera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46113",
+        "nombre": "Daimús",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46114",
+        "nombre": "Domeño",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46115",
+        "nombre": "Dos Aguas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46116",
+        "nombre": "L'Eliana",
+        "alias": "Eliana",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46117",
+        "nombre": "Emperador",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46118",
+        "nombre": "Enguera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46119",
+        "nombre": "L'Énova",
+        "alias": "Énova",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46120",
+        "nombre": "Estivella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46121",
+        "nombre": "Estubeny",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46122",
+        "nombre": "Faura",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46123",
+        "nombre": "Favara",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46128",
+        "nombre": "La Font de la Figuera",
+        "alias": "Fuente la Higuera",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46124",
+        "nombre": "Fontanars dels Alforins",
+        "alias": "Fontanares",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46125",
+        "nombre": "Fortaleny",
+        "alias": "Fortaleny",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46129",
+        "nombre": "Fuenterrobles",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46131",
+        "nombre": "Gandia",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46902",
+        "nombre": "Gátova",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46130",
+        "nombre": "Gavarda",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46133",
+        "nombre": "Gestalgar",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46134",
+        "nombre": "Gilet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46135",
+        "nombre": "Godella",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46136",
+        "nombre": "Godelleta",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46137",
+        "nombre": "La Granja de la Costera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46139",
+        "nombre": "Guadassuar",
+        "alias": "Guadasuar",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46140",
+        "nombre": "Guardamar de la Safor",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46141",
+        "nombre": "Higueruelas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46142",
+        "nombre": "Jalance",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46144",
+        "nombre": "Jarafuel",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46154",
+        "nombre": "Llanera de Ranes",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46155",
+        "nombre": "Llaurí",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46153",
+        "nombre": "Llocnou de Sant Jeroni",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46156",
+        "nombre": "Llombai",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46157",
+        "nombre": "La Llosa de Ranes",
+        "alias": "Llosa de Ranes",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46150",
+        "nombre": "Llutxent",
+        "alias": "Llutxent",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46148",
+        "nombre": "Loriguilla",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46149",
+        "nombre": "Losa del Obispo",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46158",
+        "nombre": "Macastre",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46159",
+        "nombre": "Manises",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46160",
+        "nombre": "Manuel",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46161",
+        "nombre": "Marines",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46162",
+        "nombre": "Massalavés",
+        "alias": "Masalavés",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46163",
+        "nombre": "Massalfassar",
+        "alias": "Masalfasar",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46164",
+        "nombre": "Massamagrell",
+        "alias": "Masamagrell",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46165",
+        "nombre": "Massanassa",
+        "alias": "Masanasa",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46166",
+        "nombre": "Meliana",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46167",
+        "nombre": "Millares",
+        "alias": "Millars",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46168",
+        "nombre": "Miramar",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46169",
+        "nombre": "Mislata",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46170",
+        "nombre": "Moixent",
+        "alias": "Mogente",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46173",
+        "nombre": "Montaverner",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46174",
+        "nombre": "Montesa",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46175",
+        "nombre": "Montitxelvo",
+        "alias": "Montichelvo",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46176",
+        "nombre": "Montroi",
+        "alias": "Montroy",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46172",
+        "nombre": "Montserrat",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46177",
+        "nombre": "Museros",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46178",
+        "nombre": "Nàquera",
+        "alias": "Náquera",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46179",
+        "nombre": "Navarrés",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46180",
+        "nombre": "Novetlè",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46181",
+        "nombre": "Oliva",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46183",
+        "nombre": "L'Olleria",
+        "alias": "Olleria",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46182",
+        "nombre": "Olocau",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46184",
+        "nombre": "Ontinyent",
+        "alias": "Onteniente",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46185",
+        "nombre": "Otos",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46186",
+        "nombre": "Paiporta",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46187",
+        "nombre": "Palma de Gandía",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46188",
+        "nombre": "Palmera",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46189",
+        "nombre": "El Palomar",
+        "alias": "Palomar",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46190",
+        "nombre": "Paterna",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46192",
+        "nombre": "Petrés",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46193",
+        "nombre": "Picanya",
+        "alias": "Picaña",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46194",
+        "nombre": "Picassent",
+        "alias": "Picassent",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46195",
+        "nombre": "Piles",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46196",
+        "nombre": "Pinet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46199",
+        "nombre": "La Pobla de Farnals",
+        "alias": "La Puebla de Farnals",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46202",
+        "nombre": "La Pobla de Vallbona",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46200",
+        "nombre": "La Pobla del Duc",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46203",
+        "nombre": "La Pobla Llarga",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46197",
+        "nombre": "Polinyà de Xúquer",
+        "alias": "Poliñá de Júcar",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46198",
+        "nombre": "Potries",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46205",
+        "nombre": "Puçol",
+        "alias": "Puzol",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46201",
+        "nombre": "Puebla de San Miguel",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46204",
+        "nombre": "El Puig de Santa Maria",
+        "alias": "El Puig",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46101",
+        "nombre": "Quart de les Valls",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46103",
+        "nombre": "Quartell",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46104",
+        "nombre": "Quatretonda",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46206",
+        "nombre": "Quesa",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46208",
+        "nombre": "Rafelcofer",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46209",
+        "nombre": "Rafelguaraf",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46210",
+        "nombre": "Ráfol de Salem",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46212",
+        "nombre": "Real",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46211",
+        "nombre": "El Real de Gandia",
+        "alias": "Real de Gandia",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46213",
+        "nombre": "Requena",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46214",
+        "nombre": "Riba-roja de Túria",
+        "alias": "Ribarroja del Turia",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46215",
+        "nombre": "Riola",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46216",
+        "nombre": "Rocafort",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46217",
+        "nombre": "Rotglà i Corberà",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46218",
+        "nombre": "Ròtova",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46219",
+        "nombre": "Rugat",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46220",
+        "nombre": "Sagunt",
+        "alias": "Sagunto",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46221",
+        "nombre": "Salem",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46903",
+        "nombre": "San Antonio de Benagéber",
+        "alias": "San Antoni de Benagéber",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46222",
+        "nombre": "Sant Joanet",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46223",
+        "nombre": "Sedaví",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46224",
+        "nombre": "Segart",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46225",
+        "nombre": "Sellent",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46226",
+        "nombre": "Sempere",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46227",
+        "nombre": "Senyera",
+        "alias": "Señera",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46228",
+        "nombre": "Serra",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46229",
+        "nombre": "Siete Aguas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46230",
+        "nombre": "Silla",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46231",
+        "nombre": "Simat de la Valldigna",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46232",
+        "nombre": "Sinarcas",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46233",
+        "nombre": "Sollana",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46235",
+        "nombre": "Sueca",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "46236",
+        "nombre": "Sumacàrcer",
+        "alias": "",
+        "provincia": "Valencia"
+    },
+    {
+        "ine": "02009",
+        "nombre": "Almansa",
+        "alias": "",
+        "provincia": "Albacete"
+    }
+]

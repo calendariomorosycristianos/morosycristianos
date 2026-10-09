@@ -1,0 +1,149 @@
+
+[
+  {
+    "id": "46128-1",
+    "ine": "46128",
+    "nombre": "Moros i Cristians i Contrabandistes",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
+    "enlaces": {
+      "instagram": "https://www.instagram.com/miciclafont?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+      "facebook": "https://www.facebook.com/confrariajunta.festersdesantabarbara",
+      "ayuntamiento": "https://www.lafontdelafiguera.es/"
+    },
+    "edicion": {
+      "año": 2026,
+      "fechaInicio": "5 diciembre",
+      "fechaFin": "8 diciembre",
+      "actos": [
+        {
+          "fecha": "5 diciembre",
+          "hora": "20:00",
+          "nombre": "Acto de ejemplo",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": false
+        },
+        {
+          "fecha": "6 diciembre",
+          "hora": "12:00",
+          "nombre": "Desfile de ejemplo",
+          "descripcion": "Descripción del desfile de ejemplo.",
+          "destacado": true
+        },
+        {
+          "fecha": "7 diciembre",
+          "hora": "18:00",
+          "nombre": "Entrada de ejemplo",
+          "descripcion": "Descripción de la entrada de ejemplo.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "02009-1",
+    "ine": "02009",
+    "nombre": "Moros i Cristianos",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Los Moros y Cristianos de Almansa son una de las fiestas de comparsas más importantes de la provincia de Albacete.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "https://www.facebook.com/",
+      "ayuntamiento": "https://www.google.com/"
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "30 abril",
+      "fechaFin": "6 mayo",
+      "actos": [
+        {
+          "fecha": "30 abril",
+          "hora": "23:30",
+          "nombre": "Gran Retreta",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": false
+        },
+        {
+          "fecha": "1 mayo",
+          "hora": "12:00",
+          "nombre": "Entrada de bandas y pregón",
+          "descripcion": "Descripción del acto de ejemplo.",
+          "destacado": true
+        },
+        {
+          "fecha": "1 mayo",
+          "hora": "19:00",
+          "nombre": "Gran Entrada Cristiana",
+          "descripcion": "Descripción de la entrada de ejemplo.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "12009-1",
+    "ine": "12009",
+    "nombre": "Moros i Cristians d'Almassora",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "",
+      "ayuntamiento": ""
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "12 junio",
+      "fechaFin": "14 junio",
+      "actos": [
+        {
+          "fecha": "12 junio",
+          "hora": "20:00",
+          "nombre": "Pregón de fiestas",
+          "descripcion": "Acto ficticio de apertura de las fiestas.",
+          "destacado": false
+        },
+        {
+          "fecha": "13 junio",
+          "hora": "12:00",
+          "nombre": "Desfile de bandas",
+          "descripcion": "Acto ficticio con música y participación de las comparsas.",
+          "destacado": true
+        },
+        {
+          "fecha": "14 junio",
+          "hora": "19:00",
+          "nombre": "Entrada de Moros y Cristianos",
+          "descripcion": "Acto ficticio de clausura con un desfile por las calles de la localidad.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "12040-1",
+    "ine": "12040",
+    "nombre": "La desfilada de los 3 bandos",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "",
+      "ayuntamiento": ""
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "9 octubre",
+      "fechaFin": "9 octubre",
+      "actos": [
+        {
+          "fecha": "9 octubre",
+          "hora": "12:00",
+          "nombre": "Desfile de los 3 bandos",
+          "descripcion": "Desfile de los 3 bandos",
+          "destacado": true
+        }
+      ]
+    }
+  }
+]

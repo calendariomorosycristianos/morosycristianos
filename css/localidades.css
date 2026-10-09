@@ -1,0 +1,156 @@
+/* =========================
+   CABECERA DE LOCALIDADES
+========================= */
+
+.localidades-cabecera {
+    padding: 80px 0 60px;
+    background: #eeeae2;
+}
+
+.localidades-cabecera h1 {
+    margin: 0 0 20px;
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.localidades-cabecera p:not(.etiqueta) {
+    max-width: 600px;
+    margin: 0;
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   LISTA DE LOCALIDADES
+========================= */
+
+.localidades-lista {
+    padding: 70px 0;
+}
+
+.localidades-grupo {
+    margin-bottom: 50px;
+}
+
+.localidades-letra {
+    margin: 0 0 18px;
+    color: #171717;
+    font-size: 28px;
+    line-height: 1;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.localidades-grupo a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    max-width: 900px;
+    margin: 8px 0;
+    padding: 15px 18px;
+
+    background: #f7f5f1;
+    border: 1px solid #dedad2;
+    border-radius: 3px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+    color: #222222;
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.localidades-grupo a span {
+    display: block;
+}
+
+.localidades-grupo a strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #171717;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.localidades-grupo a span span {
+    display: block;
+    color: #444444;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.localidades-grupo a::after {
+    content: "→";
+    flex-shrink: 0;
+
+    color: #555555;
+    font-size: 22px;
+    font-weight: 600;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.localidades-grupo a:hover {
+    background: #ffffff;
+    border-color: #c9c4bb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+}
+
+.localidades-grupo a:hover::after {
+    color: #171717;
+    transform: translateX(3px);
+}
+
+
+/* =========================
+   MÓVIL
+========================= */
+
+@media (max-width: 700px) {
+
+    .localidades-cabecera {
+        padding: 60px 0 45px;
+    }
+
+    .localidades-lista {
+        padding: 50px 0;
+    }
+
+    .localidades-grupo {
+        margin-bottom: 40px;
+    }
+
+    .localidades-letra {
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+
+    .localidades-grupo a {
+        padding: 14px 15px;
+    }
+
+    .localidades-grupo a strong {
+        font-size: 17px;
+    }
+
+   .localidades-grupo a span span {
+    font-size: 16px;
+}
+
+}
