@@ -1,11 +1,9 @@
 
 [
   {
-    "id": "la-font-de-la-figuera",
+    "id": "46128-1",
+    "ine": "46128",
     "nombre": "Moros i Cristians i Contrabandistes",
-    "localidad": "La Font de la Figuera",
-    "alias": "Fuente la Higuera",
-    "provincia": "Valencia",
     "imagen": "../assets/images/hero-moros.jpg",
     "descripcion": "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
     "enlaces": {
@@ -43,10 +41,9 @@
     }
   },
   {
-    "id": "almansa",
+    "id": "02009-1",
+    "ine": "02009",
     "nombre": "Moros i Cristianos",
-    "localidad": "Almansa",
-    "provincia": "Albacete",
     "imagen": "../assets/images/hero-moros.jpg",
     "descripcion": "Los Moros y Cristianos de Almansa son una de las fiestas de comparsas más importantes de la provincia de Albacete.",
     "enlaces": {
@@ -84,11 +81,9 @@
     }
   },
   {
-    "id": "almazora",
+    "id": "12009-1",
+    "ine": "12009",
     "nombre": "Moros i Cristians d'Almassora",
-    "localidad": "Almazora",
-    "alias": "Almassora",
-    "provincia": "Castellón",
     "imagen": "../assets/images/hero-moros.jpg",
     "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
     "enlaces": {
@@ -120,6 +115,32 @@
           "hora": "19:00",
           "nombre": "Entrada de Moros y Cristianos",
           "descripcion": "Acto ficticio de clausura con un desfile por las calles de la localidad.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "12040-1",
+    "ine": "12040",
+    "nombre": "La desfilada de los 3 bandos",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "",
+      "ayuntamiento": ""
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "9 octubre",
+      "fechaFin": "9 octubre",
+      "actos": [
+        {
+          "fecha": "9 octubre",
+          "hora": "12:00",
+          "nombre": "Desfile de los 3 bandos",
+          "descripcion": "Desfile de los 3 bandos",
           "destacado": true
         }
       ]

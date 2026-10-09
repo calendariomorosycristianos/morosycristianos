@@ -1,23 +1,44 @@
 let fiesta = null;
+let localidad = null;
 
-fetch("../datos/fiestas.json")
-  .then((respuesta) => respuesta.json())
-  .then((datos) => {
+Promise.all([
+  fetch("../datos/fiestas.json").then((respuesta) => {
+    if (!respuesta.ok) {
+      throw new Error("No se han podido cargar las fiestas.");
+    }
+    return respuesta.json();
+  }),
 
+  fetch("../datos/localidades.json").then((respuesta) => {
+    if (!respuesta.ok) {
+      throw new Error("No se han podido cargar las localidades.");
+    }
+    return respuesta.json();
+  }),
+])
+  .then(([datosFiestas, datosLocalidades]) => {
     const parametros = new URLSearchParams(window.location.search);
     const idFiesta = parametros.get("id");
 
-    fiesta = datos.find(
-      (elemento) => elemento.id === idFiesta
-    );
+    fiesta = datosFiestas.find((elemento) => elemento.id === idFiesta);
 
     if (!fiesta) {
-    window.location.href = "../404.html";
-    return;
-}
+      window.location.href = "../404.html";
+      return;
+    }
+
+    localidad = datosLocalidades.find(
+      (elemento) => String(elemento.ine) === String(fiesta.ine),
+    );
+
+    if (!localidad) {
+      console.error(
+        "No se ha encontrado la localidad para el código INE:",
+        fiesta.ine,
+      );
+    }
 
     cargarFiesta();
-
   })
   .catch((error) => {
     console.error("Error al cargar los datos:", error);
@@ -30,8 +51,9 @@ function cargarFiesta() {
 
   document.getElementById("nombre-fiesta").textContent = fiesta.nombre;
 
-  document.getElementById("localizacion-fiesta").textContent =
-    `${fiesta.localidad} · ${fiesta.provincia}`;
+  document.getElementById("localizacion-fiesta").textContent = localidad
+    ? `${localidad.nombre} · ${localidad.provincia}`
+    : "Localidad pendiente de revisar";
 
   /* =========================
        FECHAS

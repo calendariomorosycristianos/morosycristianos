@@ -15,43 +15,30 @@ let posicionCarrusel = 0;
 
 
 // ==================================================
-// CARGAR FIESTAS
+// CARGAR FIESTAS Y LOCALIDADES
 // ==================================================
 
-fetch("datos/fiestas.json")
-    .then(respuesta => {
+Promise.all([
+    fetch("datos/fiestas.json").then(respuesta => {
         if (!respuesta.ok) {
             throw new Error("No se han podido cargar las fiestas.");
         }
-
         return respuesta.json();
-    })
-    .then(datos => {
-        fiestas = datos;
-        mostrarProximasFiestas();
-    })
-    .catch(error => {
-        console.error("Error al cargar las fiestas:", error);
-    });
-
-
-// ==================================================
-// CARGAR LOCALIDADES
-// ==================================================
-
-fetch("datos/localidades.json")
-    .then(respuesta => {
+    }),
+    fetch("datos/localidades.json").then(respuesta => {
         if (!respuesta.ok) {
             throw new Error("No se han podido cargar las localidades.");
         }
-
         return respuesta.json();
     })
-    .then(datos => {
-        localidades = datos;
+])
+    .then(([datosFiestas, datosLocalidades]) => {
+        fiestas = datosFiestas;
+        localidades = datosLocalidades;
+        mostrarProximasFiestas();
     })
     .catch(error => {
-        console.error("Error al cargar las localidades:", error);
+        console.error("Error al cargar los datos:", error);
     });
 
 
@@ -248,50 +235,50 @@ formularioBusqueda.addEventListener("submit", evento => {
         resultadosBusqueda.textContent = "";
     }
 
-    // Identificar el municipio por nombre o alias.
+    // Buscar municipios por nombre o alias.
     const municipiosCoincidentes = localidades.filter(localidad =>
         calcularPrioridad(localidad, consulta) < 99
     );
 
-    const municipioExacto = municipiosCoincidentes.find(localidad =>
-        obtenerVariantes(localidad.nombre).some(
-            variante => variante === consulta
-        ) || normalizarTexto(localidad.alias) === consulta
+    // Dar prioridad a las coincidencias exactas.
+    const localidadExacta = municipiosCoincidentes.find(localidad =>
+        obtenerVariantes(localidad.nombre).includes(consulta) ||
+        (
+            normalizarTexto(localidad.alias) &&
+            obtenerVariantes(localidad.alias).includes(consulta)
+        )
     );
 
-    const localidadSeleccionada = municipioExacto ||
+    const localidadSeleccionada = localidadExacta ||
         (municipiosCoincidentes.length === 1
             ? municipiosCoincidentes[0]
             : null);
 
-    let resultados = [];
-
-    if (localidadSeleccionada) {
-        // Buscar por nombre y alias mientras incorporamos
-        // la relación definitiva mediante el código INE.
-        const nombreLocalidad = normalizarTexto(
-            localidadSeleccionada.nombre
+    if (!resultadosBusqueda) {
+        console.error(
+            'No existe un elemento con id="resultados-busqueda".'
         );
-        const aliasLocalidad = normalizarTexto(
-            localidadSeleccionada.alias
-        );
-
-        resultados = fiestas.filter(fiesta =>
-            normalizarTexto(fiesta.localidad) === nombreLocalidad ||
-            (aliasLocalidad &&
-                normalizarTexto(fiesta.localidad) === aliasLocalidad) ||
-            normalizarTexto(fiesta.nombre) === nombreLocalidad ||
-            (aliasLocalidad &&
-                normalizarTexto(fiesta.nombre) === aliasLocalidad)
-        );
-    } else {
-        // Compatibilidad con búsquedas directas en las fichas.
-        resultados = fiestas.filter(fiesta =>
-            normalizarTexto(fiesta.localidad) === consulta ||
-            normalizarTexto(fiesta.alias) === consulta ||
-            normalizarTexto(fiesta.nombre) === consulta
-        );
+        return;
     }
+
+    // Si la búsqueda es ambigua, pedir que se seleccione una sugerencia.
+    if (!localidadSeleccionada) {
+        if (municipiosCoincidentes.length > 1) {
+            resultadosBusqueda.textContent =
+                "Hay varias localidades coincidentes. Selecciona una de las sugerencias.";
+        } else {
+            resultadosBusqueda.textContent =
+                `No hemos encontrado la localidad «${inputBusqueda.value.trim()}» en nuestro listado.`;
+        }
+        return;
+    }
+
+    // Buscar las fiestas usando exclusivamente el código INE.
+    const ineLocalidad = String(localidadSeleccionada.ine);
+
+    const resultados = fiestas.filter(fiesta =>
+        String(fiesta.ine) === ineLocalidad
+    );
 
     if (resultados.length === 1) {
         window.location.href =
@@ -299,25 +286,16 @@ formularioBusqueda.addEventListener("submit", evento => {
         return;
     }
 
-    if (!resultadosBusqueda) {
-        console.error(
-            'No existe un elemento HTML con id="resultados-busqueda".'
-        );
+    if (resultados.length === 0) {
+        resultadosBusqueda.textContent =
+            `ℹ️ Todavía no tenemos fiestas añadidas para ${localidadSeleccionada.nombre}. Estamos ampliando el calendario.`;
         return;
     }
 
-    if (resultados.length === 0) {
-        const nombreMunicipio = localidadSeleccionada
-            ? localidadSeleccionada.nombre
-            : inputBusqueda.value.trim();
-
-       
-resultadosBusqueda.textContent =
-    `ℹ️ Todavía no tenemos fiestas añadidas para ${nombreMunicipio}. Estamos ampliando el calendario.`;
-    } else {
-        resultadosBusqueda.textContent =
-            "Hay varias coincidencias. Selecciona una localidad de las sugerencias.";
-    }
+    resultadosBusqueda.textContent =
+        `Hay varias fiestas registradas para ${localidadSeleccionada.nombre}: ${
+            resultados.map(fiesta => fiesta.nombre).join(" · ")
+        }. Estamos preparando la selección de fiestas.`;
 });
 
 
@@ -406,20 +384,35 @@ function mostrarProximasFiestas() {
         .sort((a, b) => a.fecha - b.fecha)
         .slice(0, 4);
 
-    contenedorCarrusel.innerHTML = proximas
-        .map(fiesta => `
+  
+contenedorCarrusel.innerHTML = proximas
+    .map(fiesta => {
+        const localidad = localidades.find(
+            item => String(item.ine) === String(fiesta.ine)
+        );
+
+        const nombreLocalidad = localidad
+            ? localidad.nombre
+            : "Localidad pendiente de revisar";
+
+        const provincia = localidad
+            ? localidad.provincia
+            : "";
+
+        return `
             <article class="tarjeta-fiesta">
                 <p class="fecha">
                     ${fiesta.edicion.fechaInicio} — ${fiesta.edicion.fechaFin}
                 </p>
-                <h3>${fiesta.localidad}</h3>
-                <p>${fiesta.provincia}</p>
+                <h3>${nombreLocalidad}</h3>
+                <p>${provincia}</p>
                 <a href="fiestas/fiesta.html?id=${encodeURIComponent(fiesta.id)}">
                     Ver fiesta →
                 </a>
             </article>
-        `)
-        .join("");
+        `;
+    })
+    .join("");
 
     posicionCarrusel = 0;
     actualizarCarrusel();
