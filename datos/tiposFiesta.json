@@ -1,0 +1,31 @@
+
+[
+  {
+    "id": "fecha_fija",
+    "nombre": "Fecha fija",
+    "descripcion": "La fiesta se celebra en un día y mes determinados cada año.",
+    "recurrente": true,
+    "metodoCalculo": "dia_mes"
+  },
+  {
+    "id": "fecha_anual",
+    "nombre": "Fecha anual",
+    "descripcion": "La fecha se calcula mediante una regla que se repite cada año.",
+    "recurrente": true,
+    "metodoCalculo": "regla"
+  },
+  {
+    "id": "fecha_variable",
+    "nombre": "Fecha variable",
+    "descripcion": "La fecha cambia y debe confirmarse para cada celebración.",
+    "recurrente": true,
+    "metodoCalculo": "fecha_confirmada"
+  },
+  {
+    "id": "fecha_especial",
+    "nombre": "Fecha especial",
+    "descripcion": "Celebración extraordinaria por aniversarios, conmemoraciones u otros motivos.",
+    "recurrente": false,
+    "metodoCalculo": "fecha_confirmada"
+  }
+]

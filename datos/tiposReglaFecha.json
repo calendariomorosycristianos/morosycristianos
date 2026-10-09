@@ -1,0 +1,12 @@
+[
+{
+"id": "dia_semana_mes",
+"nombre": "Día de la semana del mes",
+"descripcion": "Calcula una aparición concreta de un día de la semana dentro de un mes.",
+"parametros": [
+"diaSemana",
+"mes",
+"posicion"
+]
+}
+]

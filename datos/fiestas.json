@@ -1,40 +1,39 @@
-
 [
   {
     "id": "46128-1",
     "ine": "46128",
     "nombre": "Moros i Cristians i Contrabandistes",
+    "tipoFiesta": "fecha_fija",
     "imagen": "../assets/images/hero-moros.jpg",
-    "descripcion": "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
+    "descripcion": "Registro de prueba. Las fechas y los actos deben verificarse con fuentes oficiales.",
     "enlaces": {
-      "instagram": "https://www.instagram.com/miciclafont?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+      "instagram": "https://www.instagram.com/miciclafont/",
       "facebook": "https://www.facebook.com/confrariajunta.festersdesantabarbara",
       "ayuntamiento": "https://www.lafontdelafiguera.es/"
     },
     "edicion": {
-      "año": 2026,
-      "fechaInicio": "5 diciembre",
-      "fechaFin": "8 diciembre",
+      "fechaInicio": "05-12",
+      "fechaFin": "08-12",
       "actos": [
         {
-          "fecha": "5 diciembre",
+          "fecha": "05-12",
           "hora": "20:00",
           "nombre": "Acto de ejemplo",
-          "descripcion": "Descripción del acto de ejemplo.",
+          "descripcion": "Acto de prueba pendiente de verificar.",
           "destacado": false
         },
         {
-          "fecha": "6 diciembre",
+          "fecha": "06-12",
           "hora": "12:00",
           "nombre": "Desfile de ejemplo",
-          "descripcion": "Descripción del desfile de ejemplo.",
+          "descripcion": "Desfile de prueba pendiente de verificar.",
           "destacado": true
         },
         {
-          "fecha": "7 diciembre",
+          "fecha": "07-12",
           "hora": "18:00",
           "nombre": "Entrada de ejemplo",
-          "descripcion": "Descripción de la entrada de ejemplo.",
+          "descripcion": "Entrada de prueba pendiente de verificar.",
           "destacado": true
         }
       ]
@@ -44,37 +43,37 @@
     "id": "02009-1",
     "ine": "02009",
     "nombre": "Moros i Cristianos",
+    "tipoFiesta": "fecha_fija",
     "imagen": "../assets/images/hero-moros.jpg",
-    "descripcion": "Los Moros y Cristianos de Almansa son una de las fiestas de comparsas más importantes de la provincia de Albacete.",
+    "descripcion": "Los Moros i Cristianos de Almansa son una de las fiestas de comparsas más importantes de la provincia de Albacete.",
     "enlaces": {
       "instagram": "",
-      "facebook": "https://www.facebook.com/",
-      "ayuntamiento": "https://www.google.com/"
+      "facebook": "",
+      "ayuntamiento": ""
     },
     "edicion": {
-      "año": 2027,
-      "fechaInicio": "30 abril",
-      "fechaFin": "6 mayo",
+      "fechaInicio": "30-04",
+      "fechaFin": "06-05",
       "actos": [
         {
-          "fecha": "30 abril",
+          "fecha": "30-04",
           "hora": "23:30",
           "nombre": "Gran Retreta",
-          "descripcion": "Descripción del acto de ejemplo.",
+          "descripcion": "Descripción de prueba pendiente de verificar.",
           "destacado": false
         },
         {
-          "fecha": "1 mayo",
+          "fecha": "01-05",
           "hora": "12:00",
           "nombre": "Entrada de bandas y pregón",
-          "descripcion": "Descripción del acto de ejemplo.",
+          "descripcion": "Descripción de prueba pendiente de verificar.",
           "destacado": true
         },
         {
-          "fecha": "1 mayo",
+          "fecha": "01-05",
           "hora": "19:00",
           "nombre": "Gran Entrada Cristiana",
-          "descripcion": "Descripción de la entrada de ejemplo.",
+          "descripcion": "Descripción de prueba pendiente de verificar.",
           "destacado": true
         }
       ]
@@ -84,37 +83,37 @@
     "id": "12009-1",
     "ine": "12009",
     "nombre": "Moros i Cristians d'Almassora",
+    "tipoFiesta": "fecha_variable",
     "imagen": "../assets/images/hero-moros.jpg",
-    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "descripcion": "Registro ficticio para probar fechas confirmadas, buscador y autocompletado. Los datos no representan un programa real.",
     "enlaces": {
       "instagram": "",
       "facebook": "",
       "ayuntamiento": ""
     },
     "edicion": {
-      "año": 2027,
-      "fechaInicio": "12 junio",
-      "fechaFin": "14 junio",
+      "fechaInicio": "2026-11-13",
+      "fechaFin": "2026-11-15",
       "actos": [
         {
-          "fecha": "12 junio",
+          "fecha": "2026-11-13",
           "hora": "20:00",
-          "nombre": "Pregón de fiestas",
-          "descripcion": "Acto ficticio de apertura de las fiestas.",
+          "nombre": "Pregón de fiestas (prueba)",
+          "descripcion": "Acto ficticio para comprobar la visualización de una fecha confirmada.",
           "destacado": false
         },
         {
-          "fecha": "13 junio",
+          "fecha": "2026-11-14",
           "hora": "12:00",
-          "nombre": "Desfile de bandas",
-          "descripcion": "Acto ficticio con música y participación de las comparsas.",
+          "nombre": "Desfile de bandas (prueba)",
+          "descripcion": "Acto ficticio para probar el programa de actos.",
           "destacado": true
         },
         {
-          "fecha": "14 junio",
+          "fecha": "2026-11-15",
           "hora": "19:00",
-          "nombre": "Entrada de Moros y Cristianos",
-          "descripcion": "Acto ficticio de clausura con un desfile por las calles de la localidad.",
+          "nombre": "Entrada de Moros y Cristianos (prueba)",
+          "descripcion": "Acto ficticio para probar una fecha confirmada.",
           "destacado": true
         }
       ]
@@ -124,23 +123,52 @@
     "id": "12040-1",
     "ine": "12040",
     "nombre": "La desfilada de los 3 bandos",
+    "tipoFiesta": "fecha_fija",
     "imagen": "../assets/images/hero-moros.jpg",
-    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "descripcion": "Registro ficticio para probar una fiesta que se celebra en una fecha fija cada año.",
     "enlaces": {
       "instagram": "",
       "facebook": "",
       "ayuntamiento": ""
     },
     "edicion": {
-      "año": 2027,
-      "fechaInicio": "9 octubre",
-      "fechaFin": "9 octubre",
+      "fechaInicio": "09-10",
+      "fechaFin": "09-10",
       "actos": [
         {
-          "fecha": "9 octubre",
+          "fecha": "09-10",
           "hora": "12:00",
-          "nombre": "Desfile de los 3 bandos",
-          "descripcion": "Desfile de los 3 bandos",
+          "nombre": "Desfile de los 3 bandos (prueba)",
+          "descripcion": "Acto ficticio para probar una celebración de un solo día.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "46124-1",
+    "ine": "46124",
+    "nombre": "Gran Entrada de Moros i Cristians",
+    "tipoFiesta": "fecha_anual",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "La Gran Entrada de Moros i Cristians de Fontanars dels Alforins se celebra el último sábado de agosto.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "",
+      "ayuntamiento": ""
+    },
+    "edicion": {
+      "reglaFecha": {
+        "tipo": "dia_semana_mes",
+        "diaSemana": 6,
+        "mes": 8,
+        "posicion": -1
+      },
+      "actos": [
+        {
+          "hora": "17:00",
+          "nombre": "Gran Entrada de Moros i Cristians",
+          "descripcion": "Gran Entrada de Moros i Cristians de Fontanars dels Alforins.",
           "destacado": true
         }
       ]
