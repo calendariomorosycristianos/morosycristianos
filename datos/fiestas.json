@@ -1,8 +1,10 @@
+
 [
   {
     "id": "la-font-de-la-figuera",
     "nombre": "Moros i Cristians i Contrabandistes",
     "localidad": "La Font de la Figuera",
+    "alias": "Fuente la Higuera",
     "provincia": "Valencia",
     "imagen": "../assets/images/hero-moros.jpg",
     "descripcion": "Los Moros y Cristianos de La Font de la Figuera forman parte de las fiestas tradicionales de la localidad, con diferentes actos y celebraciones que reúnen a vecinos y visitantes durante varios días.",
@@ -76,6 +78,48 @@
           "hora": "19:00",
           "nombre": "Gran Entrada Cristiana",
           "descripcion": "Descripción de la entrada de ejemplo.",
+          "destacado": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "almazora",
+    "nombre": "Moros i Cristians d'Almassora",
+    "localidad": "Almazora",
+    "alias": "Almassora",
+    "provincia": "Castellón",
+    "imagen": "../assets/images/hero-moros.jpg",
+    "descripcion": "Registro ficticio creado exclusivamente para probar el buscador y el autocompletado. Los actos y las fechas siguientes son inventados.",
+    "enlaces": {
+      "instagram": "",
+      "facebook": "",
+      "ayuntamiento": ""
+    },
+    "edicion": {
+      "año": 2027,
+      "fechaInicio": "12 junio",
+      "fechaFin": "14 junio",
+      "actos": [
+        {
+          "fecha": "12 junio",
+          "hora": "20:00",
+          "nombre": "Pregón de fiestas",
+          "descripcion": "Acto ficticio de apertura de las fiestas.",
+          "destacado": false
+        },
+        {
+          "fecha": "13 junio",
+          "hora": "12:00",
+          "nombre": "Desfile de bandas",
+          "descripcion": "Acto ficticio con música y participación de las comparsas.",
+          "destacado": true
+        },
+        {
+          "fecha": "14 junio",
+          "hora": "19:00",
+          "nombre": "Entrada de Moros y Cristianos",
+          "descripcion": "Acto ficticio de clausura con un desfile por las calles de la localidad.",
           "destacado": true
         }
       ]

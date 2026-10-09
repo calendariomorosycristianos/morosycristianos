@@ -1,0 +1,2687 @@
+[
+    {
+        "ine": "12069",
+        "nombre": "Higueras",
+        "alias": "Higueras"
+    },
+    {
+        "ine": "12070",
+        "nombre": "Jana, la",
+        "alias": "Jana, la"
+    },
+    {
+        "ine": "12071",
+        "nombre": "Jérica",
+        "alias": "Jérica"
+    },
+    {
+        "ine": "12074",
+        "nombre": "Llosa, la",
+        "alias": "Llosa, la"
+    },
+    {
+        "ine": "12072",
+        "nombre": "Llucena/Lucena del Cid",
+        "alias": "Llucena/Lucena del Cid"
+    },
+    {
+        "ine": "12073",
+        "nombre": "Ludiente",
+        "alias": "Ludiente"
+    },
+    {
+        "ine": "12075",
+        "nombre": "Mata de Morella, la",
+        "alias": "Mata de Morella, la"
+    },
+    {
+        "ine": "12076",
+        "nombre": "Matet",
+        "alias": "Matet"
+    },
+    {
+        "ine": "12077",
+        "nombre": "Moncofa",
+        "alias": "Moncofa"
+    },
+    {
+        "ine": "12078",
+        "nombre": "Montán",
+        "alias": "Montán"
+    },
+    {
+        "ine": "12079",
+        "nombre": "Montanejos",
+        "alias": "Montanejos"
+    },
+    {
+        "ine": "12080",
+        "nombre": "Morella",
+        "alias": "Morella"
+    },
+    {
+        "ine": "12081",
+        "nombre": "Navajas",
+        "alias": "Navajas"
+    },
+    {
+        "ine": "12082",
+        "nombre": "Nules",
+        "alias": "Nules"
+    },
+    {
+        "ine": "12083",
+        "nombre": "Olocau del Rey",
+        "alias": "Olocau del Rey"
+    },
+    {
+        "ine": "12084",
+        "nombre": "Onda",
+        "alias": "Onda"
+    },
+    {
+        "ine": "12085",
+        "nombre": "Orpesa/Oropesa del Mar",
+        "alias": "Orpesa/Oropesa del Mar"
+    },
+    {
+        "ine": "12087",
+        "nombre": "Palanques",
+        "alias": "Palanques"
+    },
+    {
+        "ine": "12088",
+        "nombre": "Pavías",
+        "alias": "Pavías"
+    },
+    {
+        "ine": "12089",
+        "nombre": "Peníscola/Peñíscola",
+        "alias": "Peníscola/Peñíscola"
+    },
+    {
+        "ine": "12090",
+        "nombre": "Pina de Montalgrao",
+        "alias": "Pina de Montalgrao"
+    },
+    {
+        "ine": "12093",
+        "nombre": "Pobla de Benifassà, la",
+        "alias": "Pobla de Benifassà, la"
+    },
+    {
+        "ine": "12091",
+        "nombre": "Portell de Morella",
+        "alias": "Portell de Morella"
+    },
+    {
+        "ine": "12092",
+        "nombre": "Puebla de Arenoso",
+        "alias": "Puebla de Arenoso"
+    },
+    {
+        "ine": "12095",
+        "nombre": "Ribesalbes",
+        "alias": "Ribesalbes"
+    },
+    {
+        "ine": "12096",
+        "nombre": "Rossell",
+        "alias": "Rossell"
+    },
+    {
+        "ine": "12097",
+        "nombre": "Sacañet",
+        "alias": "Sacañet"
+    },
+    {
+        "ine": "12098",
+        "nombre": "Salzadella, la",
+        "alias": "Salzadella, la"
+    },
+    {
+        "ine": "12101",
+        "nombre": "San Rafael del Río",
+        "alias": "San Rafael del Río"
+    },
+    {
+        "ine": "12902",
+        "nombre": "Sant Joan de Moró",
+        "alias": "Sant Joan de Moró"
+    },
+    {
+        "ine": "12099",
+        "nombre": "Sant Jordi/San Jorge",
+        "alias": "Sant Jordi/San Jorge"
+    },
+    {
+        "ine": "12100",
+        "nombre": "Sant Mateu",
+        "alias": "Sant Mateu"
+    },
+    {
+        "ine": "12102",
+        "nombre": "Santa Magdalena de Pulpis",
+        "alias": "Santa Magdalena de Pulpis"
+    },
+    {
+        "ine": "12104",
+        "nombre": "Segorbe",
+        "alias": "Segorbe"
+    },
+    {
+        "ine": "12103",
+        "nombre": "Serratella, la",
+        "alias": "Serratella, la"
+    },
+    {
+        "ine": "12105",
+        "nombre": "Sierra Engarcerán",
+        "alias": "Sierra Engarcerán"
+    },
+    {
+        "ine": "12106",
+        "nombre": "Soneja",
+        "alias": "Soneja"
+    },
+    {
+        "ine": "12107",
+        "nombre": "Sot de Ferrer",
+        "alias": "Sot de Ferrer"
+    },
+    {
+        "ine": "12108",
+        "nombre": "Suera/Sueras",
+        "alias": "Suera/Sueras"
+    },
+    {
+        "ine": "12109",
+        "nombre": "Tales",
+        "alias": "Tales"
+    },
+    {
+        "ine": "12110",
+        "nombre": "Teresa",
+        "alias": "Teresa"
+    },
+    {
+        "ine": "12111",
+        "nombre": "Tírig",
+        "alias": "Tírig"
+    },
+    {
+        "ine": "12112",
+        "nombre": "Todolella",
+        "alias": "Todolella"
+    },
+    {
+        "ine": "12113",
+        "nombre": "Toga",
+        "alias": "Toga"
+    },
+    {
+        "ine": "12114",
+        "nombre": "Torás",
+        "alias": "Torás"
+    },
+    {
+        "ine": "12115",
+        "nombre": "Toro, El",
+        "alias": "Toro, El"
+    },
+    {
+        "ine": "12116",
+        "nombre": "Torralba del Pinar",
+        "alias": "Torralba del Pinar"
+    },
+    {
+        "ine": "03002",
+        "nombre": "Agost",
+        "alias": "Agost"
+    },
+    {
+        "ine": "03003",
+        "nombre": "Agres",
+        "alias": "Agres"
+    },
+    {
+        "ine": "03004",
+        "nombre": "Aigües",
+        "alias": "Aigües"
+    },
+    {
+        "ine": "03014",
+        "nombre": "Alacant/Alicante",
+        "alias": "Alacant/Alicante"
+    },
+    {
+        "ine": "03005",
+        "nombre": "Albatera",
+        "alias": "Albatera"
+    },
+    {
+        "ine": "03006",
+        "nombre": "Alcalalí",
+        "alias": "Alcalalí"
+    },
+    {
+        "ine": "03009",
+        "nombre": "Alcoi/Alcoy",
+        "alias": "Alcoi/Alcoy"
+    },
+    {
+        "ine": "03008",
+        "nombre": "Alcoleja",
+        "alias": "Alcoleja"
+    },
+    {
+        "ine": "03010",
+        "nombre": "Alfafara",
+        "alias": "Alfafara"
+    },
+    {
+        "ine": "03011",
+        "nombre": "Alfàs del Pi, l'",
+        "alias": "Alfàs del Pi, l'"
+    },
+    {
+        "ine": "03012",
+        "nombre": "Algorfa",
+        "alias": "Algorfa"
+    },
+    {
+        "ine": "03013",
+        "nombre": "Algueña",
+        "alias": "Algueña"
+    },
+    {
+        "ine": "03016",
+        "nombre": "Almudaina",
+        "alias": "Almudaina"
+    },
+    {
+        "ine": "03017",
+        "nombre": "Alqueria d'Asnar, l'",
+        "alias": "Alqueria d'Asnar, l'"
+    },
+    {
+        "ine": "03018",
+        "nombre": "Altea",
+        "alias": "Altea"
+    },
+    {
+        "ine": "03019",
+        "nombre": "Aspe",
+        "alias": "Aspe"
+    },
+    {
+        "ine": "03001",
+        "nombre": "Atzúbia, l'",
+        "alias": "Atzúbia, l'"
+    },
+    {
+        "ine": "03020",
+        "nombre": "Balones",
+        "alias": "Balones"
+    },
+    {
+        "ine": "03021",
+        "nombre": "Banyeres de Mariola",
+        "alias": "Banyeres de Mariola"
+    },
+    {
+        "ine": "03022",
+        "nombre": "Benasau",
+        "alias": "Benasau"
+    },
+    {
+        "ine": "03023",
+        "nombre": "Beneixama",
+        "alias": "Beneixama"
+    },
+    {
+        "ine": "03024",
+        "nombre": "Benejúzar",
+        "alias": "Benejúzar"
+    },
+    {
+        "ine": "03025",
+        "nombre": "Benferri",
+        "alias": "Benferri"
+    },
+    {
+        "ine": "03026",
+        "nombre": "Beniarbeig",
+        "alias": "Beniarbeig"
+    },
+    {
+        "ine": "03027",
+        "nombre": "Beniardà",
+        "alias": "Beniardà"
+    },
+    {
+        "ine": "03028",
+        "nombre": "Beniarrés",
+        "alias": "Beniarrés"
+    },
+    {
+        "ine": "03030",
+        "nombre": "Benidoleig",
+        "alias": "Benidoleig"
+    },
+    {
+        "ine": "03031",
+        "nombre": "Benidorm",
+        "alias": "Benidorm"
+    },
+    {
+        "ine": "03032",
+        "nombre": "Benifallim",
+        "alias": "Benifallim"
+    },
+    {
+        "ine": "03033",
+        "nombre": "Benifato",
+        "alias": "Benifato"
+    },
+    {
+        "ine": "03029",
+        "nombre": "Benigembla",
+        "alias": "Benigembla"
+    },
+    {
+        "ine": "03034",
+        "nombre": "Benijófar",
+        "alias": "Benijófar"
+    },
+    {
+        "ine": "03035",
+        "nombre": "Benilloba",
+        "alias": "Benilloba"
+    },
+    {
+        "ine": "03036",
+        "nombre": "Benillup",
+        "alias": "Benillup"
+    },
+    {
+        "ine": "03037",
+        "nombre": "Benimantell",
+        "alias": "Benimantell"
+    },
+    {
+        "ine": "03038",
+        "nombre": "Benimarfull",
+        "alias": "Benimarfull"
+    },
+    {
+        "ine": "03039",
+        "nombre": "Benimassot",
+        "alias": "Benimassot"
+    },
+    {
+        "ine": "03040",
+        "nombre": "Benimeli",
+        "alias": "Benimeli"
+    },
+    {
+        "ine": "03041",
+        "nombre": "Benissa",
+        "alias": "Benissa"
+    },
+    {
+        "ine": "03043",
+        "nombre": "Biar",
+        "alias": "Biar"
+    },
+    {
+        "ine": "03044",
+        "nombre": "Bigastro",
+        "alias": "Bigastro"
+    },
+    {
+        "ine": "03045",
+        "nombre": "Bolulla",
+        "alias": "Bolulla"
+    },
+    {
+        "ine": "03046",
+        "nombre": "Busot",
+        "alias": "Busot"
+    },
+    {
+        "ine": "03049",
+        "nombre": "Callosa de Segura",
+        "alias": "Callosa de Segura"
+    },
+    {
+        "ine": "03047",
+        "nombre": "Calp",
+        "alias": "Calp"
+    },
+    {
+        "ine": "03051",
+        "nombre": "Camp de Mirra, el/Campo de Mirra",
+        "alias": "Camp de Mirra, el/Campo de Mirra"
+    },
+    {
+        "ine": "03050",
+        "nombre": "Campello, el",
+        "alias": "Campello, el"
+    },
+    {
+        "ine": "03052",
+        "nombre": "Cañada",
+        "alias": "Cañada"
+    },
+    {
+        "ine": "03053",
+        "nombre": "Castalla",
+        "alias": "Castalla"
+    },
+    {
+        "ine": "03054",
+        "nombre": "Castell de Castells",
+        "alias": "Castell de Castells"
+    },
+    {
+        "ine": "03075",
+        "nombre": "Castell de Guadalest, el",
+        "alias": "Castell de Guadalest, el"
+    },
+    {
+        "ine": "03055",
+        "nombre": "Catral",
+        "alias": "Catral"
+    },
+    {
+        "ine": "03056",
+        "nombre": "Cocentaina",
+        "alias": "Cocentaina"
+    },
+    {
+        "ine": "03057",
+        "nombre": "Confrides",
+        "alias": "Confrides"
+    },
+    {
+        "ine": "03058",
+        "nombre": "Cox",
+        "alias": "Cox"
+    },
+    {
+        "ine": "03061",
+        "nombre": "Daya Nueva",
+        "alias": "Daya Nueva"
+    },
+    {
+        "ine": "03062",
+        "nombre": "Daya Vieja",
+        "alias": "Daya Vieja"
+    },
+    {
+        "ine": "03063",
+        "nombre": "Dénia",
+        "alias": "Dénia"
+    },
+    {
+        "ine": "03064",
+        "nombre": "Dolores",
+        "alias": "Dolores"
+    },
+    {
+        "ine": "03066",
+        "nombre": "Elda",
+        "alias": "Elda"
+    },
+    {
+        "ine": "03065",
+        "nombre": "Elx/Elche",
+        "alias": "Elx/Elche"
+    },
+    {
+        "ine": "03068",
+        "nombre": "Famorca",
+        "alias": "Famorca"
+    },
+    {
+        "ine": "03069",
+        "nombre": "Finestrat",
+        "alias": "Finestrat"
+    },
+    {
+        "ine": "03077",
+        "nombre": "Fondó de les Neus, el/Hondón de las Nieves",
+        "alias": "Fondó de les Neus, el/Hondón de las Nieves"
+    },
+    {
+        "ine": "03070",
+        "nombre": "Formentera del Segura",
+        "alias": "Formentera del Segura"
+    },
+    {
+        "ine": "03072",
+        "nombre": "Gaianes",
+        "alias": "Gaianes"
+    },
+    {
+        "ine": "03071",
+        "nombre": "Gata de Gorgos",
+        "alias": "Gata de Gorgos"
+    },
+    {
+        "ine": "03073",
+        "nombre": "Gorga",
+        "alias": "Gorga"
+    },
+    {
+        "ine": "03074",
+        "nombre": "Granja de Rocamora",
+        "alias": "Granja de Rocamora"
+    },
+    {
+        "ine": "03076",
+        "nombre": "Guardamar del Segura",
+        "alias": "Guardamar del Segura"
+    },
+    {
+        "ine": "03078",
+        "nombre": "Hondón de los Frailes",
+        "alias": "Hondón de los Frailes"
+    },
+    {
+        "ine": "03079",
+        "nombre": "Ibi",
+        "alias": "Ibi"
+    },
+    {
+        "ine": "03080",
+        "nombre": "Jacarilla",
+        "alias": "Jacarilla"
+    },
+    {
+        "ine": "03085",
+        "nombre": "Llíber",
+        "alias": "Llíber"
+    },
+    {
+        "ine": "03086",
+        "nombre": "Millena",
+        "alias": "Millena"
+    },
+    {
+        "ine": "03088",
+        "nombre": "Monforte del Cid",
+        "alias": "Monforte del Cid"
+    },
+    {
+        "ine": "03089",
+        "nombre": "Monòver/Monóvar",
+        "alias": "Monòver/Monóvar"
+    },
+    {
+        "ine": "03903",
+        "nombre": "Montesinos, los",
+        "alias": "Montesinos, los"
+    },
+    {
+        "ine": "03091",
+        "nombre": "Murla",
+        "alias": "Murla"
+    },
+    {
+        "ine": "03092",
+        "nombre": "Muro de Alcoy",
+        "alias": "Muro de Alcoy"
+    },
+    {
+        "ine": "03090",
+        "nombre": "Mutxamel",
+        "alias": "Mutxamel"
+    },
+    {
+        "ine": "03094",
+        "nombre": "Nucia, la",
+        "alias": "Nucia, la"
+    },
+    {
+        "ine": "03095",
+        "nombre": "Ondara",
+        "alias": "Ondara"
+    },
+    {
+        "ine": "03096",
+        "nombre": "Onil",
+        "alias": "Onil"
+    },
+    {
+        "ine": "03097",
+        "nombre": "Orba",
+        "alias": "Orba"
+    },
+    {
+        "ine": "03099",
+        "nombre": "Orihuela",
+        "alias": "Orihuela"
+    },
+    {
+        "ine": "03084",
+        "nombre": "Orxa, l'/Lorcha",
+        "alias": "Orxa, l'/Lorcha"
+    },
+    {
+        "ine": "03098",
+        "nombre": "Orxeta",
+        "alias": "Orxeta"
+    },
+    {
+        "ine": "03100",
+        "nombre": "Parcent",
+        "alias": "Parcent"
+    },
+    {
+        "ine": "03101",
+        "nombre": "Pedreguer",
+        "alias": "Pedreguer"
+    },
+    {
+        "ine": "03102",
+        "nombre": "Pego",
+        "alias": "Pego"
+    },
+    {
+        "ine": "03103",
+        "nombre": "Penàguila",
+        "alias": "Penàguila"
+    },
+    {
+        "ine": "03104",
+        "nombre": "Petrer",
+        "alias": "Petrer"
+    },
+    {
+        "ine": "03902",
+        "nombre": "Pilar de la Horadada",
+        "alias": "Pilar de la Horadada"
+    },
+    {
+        "ine": "03105",
+        "nombre": "Pinós, el/Pinoso",
+        "alias": "Pinós, el/Pinoso"
+    },
+    {
+        "ine": "03106",
+        "nombre": "Planes",
+        "alias": "Planes"
+    },
+    {
+        "ine": "03042",
+        "nombre": "Poble Nou de Benitatxell, el/Benitachell",
+        "alias": "Poble Nou de Benitatxell, el/Benitachell"
+    },
+    {
+        "ine": "03901",
+        "nombre": "Poblets, els",
+        "alias": "Poblets, els"
+    },
+    {
+        "ine": "03107",
+        "nombre": "Polop",
+        "alias": "Polop"
+    },
+    {
+        "ine": "03060",
+        "nombre": "Quatretondeta",
+        "alias": "Quatretondeta"
+    },
+    {
+        "ine": "03109",
+        "nombre": "Rafal",
+        "alias": "Rafal"
+    },
+    {
+        "ine": "03110",
+        "nombre": "Ràfol d'Almúnia , el",
+        "alias": "Ràfol d'Almúnia , el"
+    },
+    {
+        "ine": "03111",
+        "nombre": "Redován",
+        "alias": "Redován"
+    },
+    {
+        "ine": "03112",
+        "nombre": "Relleu",
+        "alias": "Relleu"
+    },
+    {
+        "ine": "03113",
+        "nombre": "Rojales",
+        "alias": "Rojales"
+    },
+    {
+        "ine": "03114",
+        "nombre": "Romana, la",
+        "alias": "Romana, la"
+    },
+    {
+        "ine": "03115",
+        "nombre": "Sagra",
+        "alias": "Sagra"
+    },
+    {
+        "ine": "03116",
+        "nombre": "Salinas",
+        "alias": "Salinas"
+    },
+    {
+        "ine": "03118",
+        "nombre": "San Fulgencio",
+        "alias": "San Fulgencio"
+    },
+    {
+        "ine": "03904",
+        "nombre": "San Isidro",
+        "alias": "San Isidro"
+    },
+    {
+        "ine": "03120",
+        "nombre": "San Miguel de Salinas",
+        "alias": "San Miguel de Salinas"
+    },
+    {
+        "ine": "03117",
+        "nombre": "Sanet y Negrals",
+        "alias": "Sanet y Negrals"
+    },
+    {
+        "ine": "03119",
+        "nombre": "Sant Joan d'Alacant",
+        "alias": "Sant Joan d'Alacant"
+    },
+    {
+        "ine": "03122",
+        "nombre": "Sant Vicent del Raspeig/San Vicente del Raspeig",
+        "alias": "Sant Vicent del Raspeig/San Vicente del Raspeig"
+    },
+    {
+        "ine": "03121",
+        "nombre": "Santa Pola",
+        "alias": "Santa Pola"
+    },
+    {
+        "ine": "03123",
+        "nombre": "Sax",
+        "alias": "Sax"
+    },
+    {
+        "ine": "03124",
+        "nombre": "Sella",
+        "alias": "Sella"
+    },
+    {
+        "ine": "03125",
+        "nombre": "Senija",
+        "alias": "Senija"
+    },
+    {
+        "ine": "03127",
+        "nombre": "Tàrbena",
+        "alias": "Tàrbena"
+    },
+    {
+        "ine": "03128",
+        "nombre": "Teulada",
+        "alias": "Teulada"
+    },
+    {
+        "ine": "03129",
+        "nombre": "Tibi",
+        "alias": "Tibi"
+    },
+    {
+        "ine": "03130",
+        "nombre": "Tollos",
+        "alias": "Tollos"
+    },
+    {
+        "ine": "03131",
+        "nombre": "Tormos",
+        "alias": "Tormos"
+    },
+    {
+        "ine": "03132",
+        "nombre": "Torre de les Maçanes, la/Torremanzanas",
+        "alias": "Torre de les Maçanes, la/Torremanzanas"
+    },
+    {
+        "ine": "03134",
+        "nombre": "Vall d'Alcalà, la",
+        "alias": "Vall d'Alcalà, la"
+    },
+    {
+        "ine": "03135",
+        "nombre": "Vall d'Ebo, la",
+        "alias": "Vall d'Ebo, la"
+    },
+    {
+        "ine": "03137",
+        "nombre": "Vall de Laguar, la",
+        "alias": "Vall de Laguar, la"
+    },
+    {
+        "ine": "03138",
+        "nombre": "Verger, el",
+        "alias": "Verger, el"
+    },
+    {
+        "ine": "03139",
+        "nombre": "Vila Joiosa, la/Villajoyosa",
+        "alias": "Vila Joiosa, la/Villajoyosa"
+    },
+    {
+        "ine": "03140",
+        "nombre": "Villena",
+        "alias": "Villena"
+    },
+    {
+        "ine": "03081",
+        "nombre": "Xaló",
+        "alias": "Xaló"
+    },
+    {
+        "ine": "03083",
+        "nombre": "Xixona/Jijona",
+        "alias": "Xixona/Jijona"
+    },
+    {
+        "ine": "12002",
+        "nombre": "Aín",
+        "alias": "Aín"
+    },
+    {
+        "ine": "12003",
+        "nombre": "Albocàsser",
+        "alias": "Albocàsser"
+    },
+    {
+        "ine": "12004",
+        "nombre": "Alcalà de Xivert",
+        "alias": "Alcalà de Xivert"
+    },
+    {
+        "ine": "12005",
+        "nombre": "Alcora, l'",
+        "alias": "Alcora, l'"
+    },
+    {
+        "ine": "12006",
+        "nombre": "Alcudia de Veo",
+        "alias": "Alcudia de Veo"
+    },
+    {
+        "ine": "12007",
+        "nombre": "Alfondeguilla",
+        "alias": "Alfondeguilla"
+    },
+    {
+        "ine": "12008",
+        "nombre": "Algimia de Almonacid",
+        "alias": "Algimia de Almonacid"
+    },
+    {
+        "ine": "12009",
+        "nombre": "Almassora",
+        "alias": "Almassora"
+    },
+    {
+        "ine": "12010",
+        "nombre": "Almedíjar",
+        "alias": "Almedíjar"
+    },
+    {
+        "ine": "12011",
+        "nombre": "Almenara",
+        "alias": "Almenara"
+    },
+    {
+        "ine": "12901",
+        "nombre": "Alqueries, les/Alquerías del Niño Perdido",
+        "alias": "Alqueries, les/Alquerías del Niño Perdido"
+    },
+    {
+        "ine": "12013",
+        "nombre": "Arañuel",
+        "alias": "Arañuel"
+    },
+    {
+        "ine": "12014",
+        "nombre": "Ares del Maestrat",
+        "alias": "Ares del Maestrat"
+    },
+    {
+        "ine": "12015",
+        "nombre": "Argelita",
+        "alias": "Argelita"
+    },
+    {
+        "ine": "12016",
+        "nombre": "Artana",
+        "alias": "Artana"
+    },
+    {
+        "ine": "12001",
+        "nombre": "Atzeneta del Maestrat",
+        "alias": "Atzeneta del Maestrat"
+    },
+    {
+        "ine": "12017",
+        "nombre": "Ayódar",
+        "alias": "Ayódar"
+    },
+    {
+        "ine": "12018",
+        "nombre": "Azuébar",
+        "alias": "Azuébar"
+    },
+    {
+        "ine": "12020",
+        "nombre": "Barracas",
+        "alias": "Barracas"
+    },
+    {
+        "ine": "12022",
+        "nombre": "Bejís",
+        "alias": "Bejís"
+    },
+    {
+        "ine": "12024",
+        "nombre": "Benafer",
+        "alias": "Benafer"
+    },
+    {
+        "ine": "12025",
+        "nombre": "Benafigos",
+        "alias": "Benafigos"
+    },
+    {
+        "ine": "12026",
+        "nombre": "Benassal",
+        "alias": "Benassal"
+    },
+    {
+        "ine": "12027",
+        "nombre": "Benicarló",
+        "alias": "Benicarló"
+    },
+    {
+        "ine": "12028",
+        "nombre": "Benicàssim/Benicasim",
+        "alias": "Benicàssim/Benicasim"
+    },
+    {
+        "ine": "12029",
+        "nombre": "Benlloc",
+        "alias": "Benlloc"
+    },
+    {
+        "ine": "12021",
+        "nombre": "Betxí",
+        "alias": "Betxí"
+    },
+    {
+        "ine": "12032",
+        "nombre": "Borriana/Burriana",
+        "alias": "Borriana/Burriana"
+    },
+    {
+        "ine": "12031",
+        "nombre": "Borriol",
+        "alias": "Borriol"
+    },
+    {
+        "ine": "12033",
+        "nombre": "Cabanes",
+        "alias": "Cabanes"
+    },
+    {
+        "ine": "12034",
+        "nombre": "Càlig",
+        "alias": "Càlig"
+    },
+    {
+        "ine": "12036",
+        "nombre": "Canet lo Roig",
+        "alias": "Canet lo Roig"
+    },
+    {
+        "ine": "12037",
+        "nombre": "Castell de Cabres",
+        "alias": "Castell de Cabres"
+    },
+    {
+        "ine": "12038",
+        "nombre": "Castellfort",
+        "alias": "Castellfort"
+    },
+    {
+        "ine": "12039",
+        "nombre": "Castellnovo",
+        "alias": "Castellnovo"
+    },
+    {
+        "ine": "12040",
+        "nombre": "Castelló de la Plana/Castellón de la Plana",
+        "alias": "Castelló de la Plana/Castellón de la Plana"
+    },
+    {
+        "ine": "12041",
+        "nombre": "Castillo de Villamalefa",
+        "alias": "Castillo de Villamalefa"
+    },
+    {
+        "ine": "12042",
+        "nombre": "Catí",
+        "alias": "Catí"
+    },
+    {
+        "ine": "12043",
+        "nombre": "Caudiel",
+        "alias": "Caudiel"
+    },
+    {
+        "ine": "12044",
+        "nombre": "Cervera del Maestre",
+        "alias": "Cervera del Maestre"
+    },
+    {
+        "ine": "12053",
+        "nombre": "Chilches/Xilxes",
+        "alias": "Chilches/Xilxes"
+    },
+    {
+        "ine": "12056",
+        "nombre": "Chóvar",
+        "alias": "Chóvar"
+    },
+    {
+        "ine": "12045",
+        "nombre": "Cinctorres",
+        "alias": "Cinctorres"
+    },
+    {
+        "ine": "12046",
+        "nombre": "Cirat",
+        "alias": "Cirat"
+    },
+    {
+        "ine": "12048",
+        "nombre": "Cortes de Arenoso",
+        "alias": "Cortes de Arenoso"
+    },
+    {
+        "ine": "12049",
+        "nombre": "Costur",
+        "alias": "Costur"
+    },
+    {
+        "ine": "12050",
+        "nombre": "Coves de Vinromà, les",
+        "alias": "Coves de Vinromà, les"
+    },
+    {
+        "ine": "12051",
+        "nombre": "Culla",
+        "alias": "Culla"
+    },
+    {
+        "ine": "12057",
+        "nombre": "Eslida",
+        "alias": "Eslida"
+    },
+    {
+        "ine": "12058",
+        "nombre": "Espadilla",
+        "alias": "Espadilla"
+    },
+    {
+        "ine": "12059",
+        "nombre": "Fanzara",
+        "alias": "Fanzara"
+    },
+    {
+        "ine": "12060",
+        "nombre": "Figueroles",
+        "alias": "Figueroles"
+    },
+    {
+        "ine": "12061",
+        "nombre": "Forcall",
+        "alias": "Forcall"
+    },
+    {
+        "ine": "12063",
+        "nombre": "Fuente la Reina",
+        "alias": "Fuente la Reina"
+    },
+    {
+        "ine": "12064",
+        "nombre": "Fuentes de Ayódar",
+        "alias": "Fuentes de Ayódar"
+    },
+    {
+        "ine": "12065",
+        "nombre": "Gaibiel",
+        "alias": "Gaibiel"
+    },
+    {
+        "ine": "12067",
+        "nombre": "Geldo",
+        "alias": "Geldo"
+    },
+    {
+        "ine": "12068",
+        "nombre": "Herbers",
+        "alias": "Herbers"
+    },
+    {
+        "ine": "46237",
+        "nombre": "Tavernes Blanques",
+        "alias": "Tavernes Blanques"
+    },
+    {
+        "ine": "46238",
+        "nombre": "Tavernes de la Valldigna",
+        "alias": "Tavernes de la Valldigna"
+    },
+    {
+        "ine": "46239",
+        "nombre": "Teresa de Cofrentes",
+        "alias": "Teresa de Cofrentes"
+    },
+    {
+        "ine": "46240",
+        "nombre": "Terrateig",
+        "alias": "Terrateig"
+    },
+    {
+        "ine": "46241",
+        "nombre": "Titaguas",
+        "alias": "Titaguas"
+    },
+    {
+        "ine": "46242",
+        "nombre": "Torrebaja",
+        "alias": "Torrebaja"
+    },
+    {
+        "ine": "46243",
+        "nombre": "Torrella",
+        "alias": "Torrella"
+    },
+    {
+        "ine": "46244",
+        "nombre": "Torrent",
+        "alias": "Torrent"
+    },
+    {
+        "ine": "46245",
+        "nombre": "Torres Torres",
+        "alias": "Torres Torres"
+    },
+    {
+        "ine": "46246",
+        "nombre": "Tous",
+        "alias": "Tous"
+    },
+    {
+        "ine": "46247",
+        "nombre": "Tuéjar",
+        "alias": "Tuéjar"
+    },
+    {
+        "ine": "46248",
+        "nombre": "Turís",
+        "alias": "Turís"
+    },
+    {
+        "ine": "46249",
+        "nombre": "Utiel",
+        "alias": "Utiel"
+    },
+    {
+        "ine": "46250",
+        "nombre": "València",
+        "alias": "València"
+    },
+    {
+        "ine": "46251",
+        "nombre": "Vallada",
+        "alias": "Vallada"
+    },
+    {
+        "ine": "46252",
+        "nombre": "Vallanca",
+        "alias": "Vallanca"
+    },
+    {
+        "ine": "46253",
+        "nombre": "Vallés",
+        "alias": "Vallés"
+    },
+    {
+        "ine": "46254",
+        "nombre": "Venta del Moro",
+        "alias": "Venta del Moro"
+    },
+    {
+        "ine": "46255",
+        "nombre": "Vilallonga/Villalonga",
+        "alias": "Vilallonga/Villalonga"
+    },
+    {
+        "ine": "46256",
+        "nombre": "Vilamarxant",
+        "alias": "Vilamarxant"
+    },
+    {
+        "ine": "46257",
+        "nombre": "Castelló",
+        "alias": "Castelló"
+    },
+    {
+        "ine": "46258",
+        "nombre": "Villar del Arzobispo",
+        "alias": "Villar del Arzobispo"
+    },
+    {
+        "ine": "46259",
+        "nombre": "Villargordo del Cabriel",
+        "alias": "Villargordo del Cabriel"
+    },
+    {
+        "ine": "46260",
+        "nombre": "Vinalesa",
+        "alias": "Vinalesa"
+    },
+    {
+        "ine": "46145",
+        "nombre": "Xàtiva",
+        "alias": "Xàtiva"
+    },
+    {
+        "ine": "46143",
+        "nombre": "Xeraco",
+        "alias": "Xeraco"
+    },
+    {
+        "ine": "46146",
+        "nombre": "Xeresa",
+        "alias": "Xeresa"
+    },
+    {
+        "ine": "46110",
+        "nombre": "Xirivella",
+        "alias": "Xirivella"
+    },
+    {
+        "ine": "46261",
+        "nombre": "Yátova",
+        "alias": "Yátova"
+    },
+    {
+        "ine": "46262",
+        "nombre": "Yesa, La",
+        "alias": "Yesa, La"
+    },
+    {
+        "ine": "46263",
+        "nombre": "Zarra",
+        "alias": "Zarra"
+    },
+    {
+        "ine": "03082",
+        "nombre": "Xàbia/Jávea",
+        "alias": "Xàbia/Jávea"
+    },
+    {
+        "ine": "03048",
+        "nombre": "Callosa d'en Sarrià",
+        "alias": "Callosa d'en Sarrià"
+    },
+    {
+        "ine": "03059",
+        "nombre": "Crevillent",
+        "alias": "Crevillent"
+    },
+    {
+        "ine": "46042",
+        "nombre": "Aielo de Malferit",
+        "alias": "Aielo de Malferit"
+    },
+    {
+        "ine": "46078",
+        "nombre": "Burjassot",
+        "alias": "Burjassot"
+    },
+    {
+        "ine": "46138",
+        "nombre": "Guadasséquies",
+        "alias": "Guadasséquies"
+    },
+    {
+        "ine": "46127",
+        "nombre": "Font d'en Carròs, la",
+        "alias": "Font d'en Carròs, la"
+    },
+    {
+        "ine": "46234",
+        "nombre": "Sot de Chera",
+        "alias": "Sot de Chera"
+    },
+    {
+        "ine": "46207",
+        "nombre": "Rafelbunyol",
+        "alias": "Rafelbunyol"
+    },
+    {
+        "ine": "46022",
+        "nombre": "Alfafar",
+        "alias": "Alfafar"
+    },
+    {
+        "ine": "46074",
+        "nombre": "Bonrepòs i Mirambell",
+        "alias": "Bonrepòs i Mirambell"
+    },
+    {
+        "ine": "46147",
+        "nombre": "Llíria",
+        "alias": "Llíria"
+    },
+    {
+        "ine": "46171",
+        "nombre": "Montcada / Moncada",
+        "alias": "Montcada / Moncada"
+    },
+    {
+        "ine": "46096",
+        "nombre": "Cerdà",
+        "alias": "Cerdà"
+    },
+    {
+        "ine": "46126",
+        "nombre": "Foios",
+        "alias": "Foios"
+    },
+    {
+        "ine": "03133",
+        "nombre": "Torrevieja",
+        "alias": "Torrevieja"
+    },
+    {
+        "ine": "03015",
+        "nombre": "Almoradí",
+        "alias": "Almoradí"
+    },
+    {
+        "ine": "46102",
+        "nombre": "Quart de Poblet",
+        "alias": "Quart de Poblet"
+    },
+    {
+        "ine": "46152",
+        "nombre": "Llocnou de la Corona",
+        "alias": "Llocnou de la Corona"
+    },
+    {
+        "ine": "46191",
+        "nombre": "Pedralba",
+        "alias": "Pedralba"
+    },
+    {
+        "ine": "46108",
+        "nombre": "Chera",
+        "alias": "Chera"
+    },
+    {
+        "ine": "03093",
+        "nombre": "Novelda",
+        "alias": "Novelda"
+    },
+    {
+        "ine": "46151",
+        "nombre": "Llocnou d'En Fenollet",
+        "alias": "Llocnou d'En Fenollet"
+    },
+    {
+        "ine": "12120",
+        "nombre": "Torre d'en Doménec, la",
+        "alias": "Torre d'en Doménec, la"
+    },
+    {
+        "ine": "12117",
+        "nombre": "Torreblanca",
+        "alias": "Torreblanca"
+    },
+    {
+        "ine": "12118",
+        "nombre": "Torrechiva",
+        "alias": "Torrechiva"
+    },
+    {
+        "ine": "12121",
+        "nombre": "Traiguera",
+        "alias": "Traiguera"
+    },
+    {
+        "ine": "12122",
+        "nombre": "Useres, les/Useras",
+        "alias": "Useres, les/Useras"
+    },
+    {
+        "ine": "12124",
+        "nombre": "Vall d'Alba",
+        "alias": "Vall d'Alba"
+    },
+    {
+        "ine": "12126",
+        "nombre": "Vall d'Uixó, la",
+        "alias": "Vall d'Uixó, la"
+    },
+    {
+        "ine": "12125",
+        "nombre": "Vall de Almonacid",
+        "alias": "Vall de Almonacid"
+    },
+    {
+        "ine": "12123",
+        "nombre": "Vallat",
+        "alias": "Vallat"
+    },
+    {
+        "ine": "12127",
+        "nombre": "Vallibona",
+        "alias": "Vallibona"
+    },
+    {
+        "ine": "12135",
+        "nombre": "Vila-real",
+        "alias": "Vila-real"
+    },
+    {
+        "ine": "12128",
+        "nombre": "Vilafamés",
+        "alias": "Vilafamés"
+    },
+    {
+        "ine": "12129",
+        "nombre": "Vilafranca/Villafranca del Cid",
+        "alias": "Vilafranca/Villafranca del Cid"
+    },
+    {
+        "ine": "12132",
+        "nombre": "Vilanova d'Alcolea",
+        "alias": "Vilanova d'Alcolea"
+    },
+    {
+        "ine": "12134",
+        "nombre": "Vilar de Canes",
+        "alias": "Vilar de Canes"
+    },
+    {
+        "ine": "12136",
+        "nombre": "Vilavella, la",
+        "alias": "Vilavella, la"
+    },
+    {
+        "ine": "12130",
+        "nombre": "Villahermosa del Río",
+        "alias": "Villahermosa del Río"
+    },
+    {
+        "ine": "12131",
+        "nombre": "Villamalur",
+        "alias": "Villamalur"
+    },
+    {
+        "ine": "12133",
+        "nombre": "Villanueva de Viver",
+        "alias": "Villanueva de Viver"
+    },
+    {
+        "ine": "12137",
+        "nombre": "Villores",
+        "alias": "Villores"
+    },
+    {
+        "ine": "12138",
+        "nombre": "Vinaròs",
+        "alias": "Vinaròs"
+    },
+    {
+        "ine": "12139",
+        "nombre": "Vistabella del Maestrat",
+        "alias": "Vistabella del Maestrat"
+    },
+    {
+        "ine": "12140",
+        "nombre": "Viver",
+        "alias": "Viver"
+    },
+    {
+        "ine": "12052",
+        "nombre": "Xert",
+        "alias": "Xert"
+    },
+    {
+        "ine": "12055",
+        "nombre": "Xodos/Chodos",
+        "alias": "Xodos/Chodos"
+    },
+    {
+        "ine": "12141",
+        "nombre": "Zorita del Maestrazgo",
+        "alias": "Zorita del Maestrazgo"
+    },
+    {
+        "ine": "12142",
+        "nombre": "Zucaina",
+        "alias": "Zucaina"
+    },
+    {
+        "ine": "46132",
+        "nombre": "Genovés, el",
+        "alias": "Genovés, el"
+    },
+    {
+        "ine": "46001",
+        "nombre": "Ademuz",
+        "alias": "Ademuz"
+    },
+    {
+        "ine": "46002",
+        "nombre": "Ador",
+        "alias": "Ador"
+    },
+    {
+        "ine": "46004",
+        "nombre": "Agullent",
+        "alias": "Agullent"
+    },
+    {
+        "ine": "46043",
+        "nombre": "Aielo de Rugat",
+        "alias": "Aielo de Rugat"
+    },
+    {
+        "ine": "46005",
+        "nombre": "Alaquàs",
+        "alias": "Alaquàs"
+    },
+    {
+        "ine": "46006",
+        "nombre": "Albaida",
+        "alias": "Albaida"
+    },
+    {
+        "ine": "46007",
+        "nombre": "Albal",
+        "alias": "Albal"
+    },
+    {
+        "ine": "46008",
+        "nombre": "Albalat de la Ribera",
+        "alias": "Albalat de la Ribera"
+    },
+    {
+        "ine": "46009",
+        "nombre": "Albalat dels Sorells",
+        "alias": "Albalat dels Sorells"
+    },
+    {
+        "ine": "46010",
+        "nombre": "Albalat dels Tarongers",
+        "alias": "Albalat dels Tarongers"
+    },
+    {
+        "ine": "46011",
+        "nombre": "Alberic",
+        "alias": "Alberic"
+    },
+    {
+        "ine": "46012",
+        "nombre": "Alborache",
+        "alias": "Alborache"
+    },
+    {
+        "ine": "46013",
+        "nombre": "Alboraia/Alboraya",
+        "alias": "Alboraia/Alboraya"
+    },
+    {
+        "ine": "46014",
+        "nombre": "Albuixech",
+        "alias": "Albuixech"
+    },
+    {
+        "ine": "46016",
+        "nombre": "Alcàntera de Xúquer",
+        "alias": "Alcàntera de Xúquer"
+    },
+    {
+        "ine": "46015",
+        "nombre": "Alcàsser",
+        "alias": "Alcàsser"
+    },
+    {
+        "ine": "46018",
+        "nombre": "Alcublas",
+        "alias": "Alcublas"
+    },
+    {
+        "ine": "46020",
+        "nombre": "Alcúdia de Crespins, l'",
+        "alias": "Alcúdia de Crespins, l'"
+    },
+    {
+        "ine": "46019",
+        "nombre": "Alcúdia, l'",
+        "alias": "Alcúdia, l'"
+    },
+    {
+        "ine": "46021",
+        "nombre": "Aldaia",
+        "alias": "Aldaia"
+    },
+    {
+        "ine": "46024",
+        "nombre": "Alfara de la Baronia",
+        "alias": "Alfara de la Baronia"
+    },
+    {
+        "ine": "46025",
+        "nombre": "Alfara del Patriarca",
+        "alias": "Alfara del Patriarca"
+    },
+    {
+        "ine": "46026",
+        "nombre": "Alfarb",
+        "alias": "Alfarb"
+    },
+    {
+        "ine": "46027",
+        "nombre": "Alfarrasí",
+        "alias": "Alfarrasí"
+    },
+    {
+        "ine": "46023",
+        "nombre": "Alfauir",
+        "alias": "Alfauir"
+    },
+    {
+        "ine": "46028",
+        "nombre": "Algar de Palància",
+        "alias": "Algar de Palància"
+    },
+    {
+        "ine": "46029",
+        "nombre": "Algemesí",
+        "alias": "Algemesí"
+    },
+    {
+        "ine": "46030",
+        "nombre": "Algímia d'Alfara",
+        "alias": "Algímia d'Alfara"
+    },
+    {
+        "ine": "46031",
+        "nombre": "Alginet",
+        "alias": "Alginet"
+    },
+    {
+        "ine": "46032",
+        "nombre": "Almàssera",
+        "alias": "Almàssera"
+    },
+    {
+        "ine": "46033",
+        "nombre": "Almiserà",
+        "alias": "Almiserà"
+    },
+    {
+        "ine": "46034",
+        "nombre": "Almoines",
+        "alias": "Almoines"
+    },
+    {
+        "ine": "46035",
+        "nombre": "Almussafes",
+        "alias": "Almussafes"
+    },
+    {
+        "ine": "46036",
+        "nombre": "Alpuente",
+        "alias": "Alpuente"
+    },
+    {
+        "ine": "46037",
+        "nombre": "Alqueria de la Comtessa, l'",
+        "alias": "Alqueria de la Comtessa, l'"
+    },
+    {
+        "ine": "46017",
+        "nombre": "Alzira",
+        "alias": "Alzira"
+    },
+    {
+        "ine": "46038",
+        "nombre": "Andilla",
+        "alias": "Andilla"
+    },
+    {
+        "ine": "46039",
+        "nombre": "Anna",
+        "alias": "Anna"
+    },
+    {
+        "ine": "46040",
+        "nombre": "Antella",
+        "alias": "Antella"
+    },
+    {
+        "ine": "46041",
+        "nombre": "Aras de los Olmos",
+        "alias": "Aras de los Olmos"
+    },
+    {
+        "ine": "46003",
+        "nombre": "Atzeneta d'Albaida",
+        "alias": "Atzeneta d'Albaida"
+    },
+    {
+        "ine": "46044",
+        "nombre": "Ayora",
+        "alias": "Ayora"
+    },
+    {
+        "ine": "46046",
+        "nombre": "Barx",
+        "alias": "Barx"
+    },
+    {
+        "ine": "46045",
+        "nombre": "Barxeta",
+        "alias": "Barxeta"
+    },
+    {
+        "ine": "46047",
+        "nombre": "Bèlgida",
+        "alias": "Bèlgida"
+    },
+    {
+        "ine": "46048",
+        "nombre": "Bellreguard",
+        "alias": "Bellreguard"
+    },
+    {
+        "ine": "46049",
+        "nombre": "Bellús",
+        "alias": "Bellús"
+    },
+    {
+        "ine": "46050",
+        "nombre": "Benagéber",
+        "alias": "Benagéber"
+    },
+    {
+        "ine": "46051",
+        "nombre": "Benaguasil",
+        "alias": "Benaguasil"
+    },
+    {
+        "ine": "46052",
+        "nombre": "Benavites",
+        "alias": "Benavites"
+    },
+    {
+        "ine": "46053",
+        "nombre": "Beneixida",
+        "alias": "Beneixida"
+    },
+    {
+        "ine": "46054",
+        "nombre": "Benetússer",
+        "alias": "Benetússer"
+    },
+    {
+        "ine": "46055",
+        "nombre": "Beniarjó",
+        "alias": "Beniarjó"
+    },
+    {
+        "ine": "46056",
+        "nombre": "Beniatjar",
+        "alias": "Beniatjar"
+    },
+    {
+        "ine": "46057",
+        "nombre": "Benicolet",
+        "alias": "Benicolet"
+    },
+    {
+        "ine": "46904",
+        "nombre": "Benicull de Xúquer",
+        "alias": "Benicull de Xúquer"
+    },
+    {
+        "ine": "46060",
+        "nombre": "Benifaió",
+        "alias": "Benifaió"
+    },
+    {
+        "ine": "46059",
+        "nombre": "Benifairó de la Valldigna",
+        "alias": "Benifairó de la Valldigna"
+    },
+    {
+        "ine": "46058",
+        "nombre": "Benifairó de les Valls",
+        "alias": "Benifairó de les Valls"
+    },
+    {
+        "ine": "46061",
+        "nombre": "Beniflá",
+        "alias": "Beniflá"
+    },
+    {
+        "ine": "46062",
+        "nombre": "Benigànim",
+        "alias": "Benigànim"
+    },
+    {
+        "ine": "46063",
+        "nombre": "Benimodo",
+        "alias": "Benimodo"
+    },
+    {
+        "ine": "46064",
+        "nombre": "Benimuslem",
+        "alias": "Benimuslem"
+    },
+    {
+        "ine": "46065",
+        "nombre": "Beniparrell",
+        "alias": "Beniparrell"
+    },
+    {
+        "ine": "46066",
+        "nombre": "Benirredrà",
+        "alias": "Benirredrà"
+    },
+    {
+        "ine": "46067",
+        "nombre": "Benissanó",
+        "alias": "Benissanó"
+    },
+    {
+        "ine": "46068",
+        "nombre": "Benissoda",
+        "alias": "Benissoda"
+    },
+    {
+        "ine": "46069",
+        "nombre": "Benissuera",
+        "alias": "Benissuera"
+    },
+    {
+        "ine": "46070",
+        "nombre": "Bétera",
+        "alias": "Bétera"
+    },
+    {
+        "ine": "46071",
+        "nombre": "Bicorp",
+        "alias": "Bicorp"
+    },
+    {
+        "ine": "46072",
+        "nombre": "Bocairent",
+        "alias": "Bocairent"
+    },
+    {
+        "ine": "46073",
+        "nombre": "Bolbaite",
+        "alias": "Bolbaite"
+    },
+    {
+        "ine": "46075",
+        "nombre": "Bufali",
+        "alias": "Bufali"
+    },
+    {
+        "ine": "46076",
+        "nombre": "Bugarra",
+        "alias": "Bugarra"
+    },
+    {
+        "ine": "46077",
+        "nombre": "Buñol",
+        "alias": "Buñol"
+    },
+    {
+        "ine": "46079",
+        "nombre": "Calles",
+        "alias": "Calles"
+    },
+    {
+        "ine": "46080",
+        "nombre": "Camporrobles",
+        "alias": "Camporrobles"
+    },
+    {
+        "ine": "46081",
+        "nombre": "Canals",
+        "alias": "Canals"
+    },
+    {
+        "ine": "46082",
+        "nombre": "Canet d'En Berenguer",
+        "alias": "Canet d'En Berenguer"
+    },
+    {
+        "ine": "46083",
+        "nombre": "Carcaixent",
+        "alias": "Carcaixent"
+    },
+    {
+        "ine": "46084",
+        "nombre": "Càrcer",
+        "alias": "Càrcer"
+    },
+    {
+        "ine": "46085",
+        "nombre": "Carlet",
+        "alias": "Carlet"
+    },
+    {
+        "ine": "46086",
+        "nombre": "Carrícola",
+        "alias": "Carrícola"
+    },
+    {
+        "ine": "46087",
+        "nombre": "Casas Altas",
+        "alias": "Casas Altas"
+    },
+    {
+        "ine": "46088",
+        "nombre": "Casas Bajas",
+        "alias": "Casas Bajas"
+    },
+    {
+        "ine": "46089",
+        "nombre": "Casinos",
+        "alias": "Casinos"
+    },
+    {
+        "ine": "46090",
+        "nombre": "Castelló de Rugat",
+        "alias": "Castelló de Rugat"
+    },
+    {
+        "ine": "46091",
+        "nombre": "Castellonet de la Conquesta",
+        "alias": "Castellonet de la Conquesta"
+    },
+    {
+        "ine": "46092",
+        "nombre": "Castielfabib",
+        "alias": "Castielfabib"
+    },
+    {
+        "ine": "46093",
+        "nombre": "Catadau",
+        "alias": "Catadau"
+    },
+    {
+        "ine": "46094",
+        "nombre": "Catarroja",
+        "alias": "Catarroja"
+    },
+    {
+        "ine": "46095",
+        "nombre": "Caudete de las Fuentes",
+        "alias": "Caudete de las Fuentes"
+    },
+    {
+        "ine": "46107",
+        "nombre": "Chella",
+        "alias": "Chella"
+    },
+    {
+        "ine": "46106",
+        "nombre": "Chelva",
+        "alias": "Chelva"
+    },
+    {
+        "ine": "46109",
+        "nombre": "Cheste",
+        "alias": "Cheste"
+    },
+    {
+        "ine": "46111",
+        "nombre": "Chiva",
+        "alias": "Chiva"
+    },
+    {
+        "ine": "46112",
+        "nombre": "Chulilla",
+        "alias": "Chulilla"
+    },
+    {
+        "ine": "46097",
+        "nombre": "Cofrentes",
+        "alias": "Cofrentes"
+    },
+    {
+        "ine": "46098",
+        "nombre": "Corbera",
+        "alias": "Corbera"
+    },
+    {
+        "ine": "46099",
+        "nombre": "Cortes de Pallás",
+        "alias": "Cortes de Pallás"
+    },
+    {
+        "ine": "46100",
+        "nombre": "Cotes",
+        "alias": "Cotes"
+    },
+    {
+        "ine": "46105",
+        "nombre": "Cullera",
+        "alias": "Cullera"
+    },
+    {
+        "ine": "46113",
+        "nombre": "Daimús",
+        "alias": "Daimús"
+    },
+    {
+        "ine": "46114",
+        "nombre": "Domeño",
+        "alias": "Domeño"
+    },
+    {
+        "ine": "46115",
+        "nombre": "Dos Aguas",
+        "alias": "Dos Aguas"
+    },
+    {
+        "ine": "46116",
+        "nombre": "Eliana, l'",
+        "alias": "Eliana, l'"
+    },
+    {
+        "ine": "46117",
+        "nombre": "Emperador",
+        "alias": "Emperador"
+    },
+    {
+        "ine": "46118",
+        "nombre": "Enguera",
+        "alias": "Enguera"
+    },
+    {
+        "ine": "46119",
+        "nombre": "Énova, l'",
+        "alias": "Énova, l'"
+    },
+    {
+        "ine": "46120",
+        "nombre": "Estivella",
+        "alias": "Estivella"
+    },
+    {
+        "ine": "46121",
+        "nombre": "Estubeny",
+        "alias": "Estubeny"
+    },
+    {
+        "ine": "46122",
+        "nombre": "Faura",
+        "alias": "Faura"
+    },
+    {
+        "ine": "46123",
+        "nombre": "Favara",
+        "alias": "Favara"
+    },
+    {
+        "ine": "46128",
+        "nombre": "Font de la Figuera, la",
+        "alias": "Font de la Figuera, la"
+    },
+    {
+        "ine": "46124",
+        "nombre": "Fontanars dels Alforins",
+        "alias": "Fontanars dels Alforins"
+    },
+    {
+        "ine": "46125",
+        "nombre": "Fortaleny",
+        "alias": "Fortaleny"
+    },
+    {
+        "ine": "46129",
+        "nombre": "Fuenterrobles",
+        "alias": "Fuenterrobles"
+    },
+    {
+        "ine": "46131",
+        "nombre": "Gandia",
+        "alias": "Gandia"
+    },
+    {
+        "ine": "46902",
+        "nombre": "Gátova",
+        "alias": "Gátova"
+    },
+    {
+        "ine": "46130",
+        "nombre": "Gavarda",
+        "alias": "Gavarda"
+    },
+    {
+        "ine": "46133",
+        "nombre": "Gestalgar",
+        "alias": "Gestalgar"
+    },
+    {
+        "ine": "46134",
+        "nombre": "Gilet",
+        "alias": "Gilet"
+    },
+    {
+        "ine": "46135",
+        "nombre": "Godella",
+        "alias": "Godella"
+    },
+    {
+        "ine": "46136",
+        "nombre": "Godelleta",
+        "alias": "Godelleta"
+    },
+    {
+        "ine": "46137",
+        "nombre": "Granja de la Costera, la",
+        "alias": "Granja de la Costera, la"
+    },
+    {
+        "ine": "46139",
+        "nombre": "Guadassuar",
+        "alias": "Guadassuar"
+    },
+    {
+        "ine": "46140",
+        "nombre": "Guardamar de la Safor",
+        "alias": "Guardamar de la Safor"
+    },
+    {
+        "ine": "46141",
+        "nombre": "Higueruelas",
+        "alias": "Higueruelas"
+    },
+    {
+        "ine": "46142",
+        "nombre": "Jalance",
+        "alias": "Jalance"
+    },
+    {
+        "ine": "46144",
+        "nombre": "Jarafuel",
+        "alias": "Jarafuel"
+    },
+    {
+        "ine": "46154",
+        "nombre": "Llanera de Ranes",
+        "alias": "Llanera de Ranes"
+    },
+    {
+        "ine": "46155",
+        "nombre": "Llaurí",
+        "alias": "Llaurí"
+    },
+    {
+        "ine": "46153",
+        "nombre": "Llocnou de Sant Jeroni",
+        "alias": "Llocnou de Sant Jeroni"
+    },
+    {
+        "ine": "46156",
+        "nombre": "Llombai",
+        "alias": "Llombai"
+    },
+    {
+        "ine": "46157",
+        "nombre": "Llosa de Ranes, la",
+        "alias": "Llosa de Ranes, la"
+    },
+    {
+        "ine": "46150",
+        "nombre": "Llutxent",
+        "alias": "Llutxent"
+    },
+    {
+        "ine": "46148",
+        "nombre": "Loriguilla",
+        "alias": "Loriguilla"
+    },
+    {
+        "ine": "46149",
+        "nombre": "Losa del Obispo",
+        "alias": "Losa del Obispo"
+    },
+    {
+        "ine": "46158",
+        "nombre": "Macastre",
+        "alias": "Macastre"
+    },
+    {
+        "ine": "46159",
+        "nombre": "Manises",
+        "alias": "Manises"
+    },
+    {
+        "ine": "46160",
+        "nombre": "Manuel",
+        "alias": "Manuel"
+    },
+    {
+        "ine": "46161",
+        "nombre": "Marines",
+        "alias": "Marines"
+    },
+    {
+        "ine": "46162",
+        "nombre": "Massalavés",
+        "alias": "Massalavés"
+    },
+    {
+        "ine": "46163",
+        "nombre": "Massalfassar",
+        "alias": "Massalfassar"
+    },
+    {
+        "ine": "46164",
+        "nombre": "Massamagrell",
+        "alias": "Massamagrell"
+    },
+    {
+        "ine": "46165",
+        "nombre": "Massanassa",
+        "alias": "Massanassa"
+    },
+    {
+        "ine": "46166",
+        "nombre": "Meliana",
+        "alias": "Meliana"
+    },
+    {
+        "ine": "46167",
+        "nombre": "Millares",
+        "alias": "Millares"
+    },
+    {
+        "ine": "46168",
+        "nombre": "Miramar",
+        "alias": "Miramar"
+    },
+    {
+        "ine": "46169",
+        "nombre": "Mislata",
+        "alias": "Mislata"
+    },
+    {
+        "ine": "46170",
+        "nombre": "Moixent/Mogente",
+        "alias": "Moixent/Mogente"
+    },
+    {
+        "ine": "46173",
+        "nombre": "Montaverner",
+        "alias": "Montaverner"
+    },
+    {
+        "ine": "46174",
+        "nombre": "Montesa",
+        "alias": "Montesa"
+    },
+    {
+        "ine": "46175",
+        "nombre": "Montitxelvo/Montichelvo",
+        "alias": "Montitxelvo/Montichelvo"
+    },
+    {
+        "ine": "46176",
+        "nombre": "Montroi/Montroy",
+        "alias": "Montroi/Montroy"
+    },
+    {
+        "ine": "46172",
+        "nombre": "Montserrat",
+        "alias": "Montserrat"
+    },
+    {
+        "ine": "46177",
+        "nombre": "Museros",
+        "alias": "Museros"
+    },
+    {
+        "ine": "46178",
+        "nombre": "Nàquera/Náquera",
+        "alias": "Nàquera/Náquera"
+    },
+    {
+        "ine": "46179",
+        "nombre": "Navarrés",
+        "alias": "Navarrés"
+    },
+    {
+        "ine": "46180",
+        "nombre": "Novetlè",
+        "alias": "Novetlè"
+    },
+    {
+        "ine": "46181",
+        "nombre": "Oliva",
+        "alias": "Oliva"
+    },
+    {
+        "ine": "46183",
+        "nombre": "Olleria, l'",
+        "alias": "Olleria, l'"
+    },
+    {
+        "ine": "46182",
+        "nombre": "Olocau",
+        "alias": "Olocau"
+    },
+    {
+        "ine": "46184",
+        "nombre": "Ontinyent",
+        "alias": "Ontinyent"
+    },
+    {
+        "ine": "46185",
+        "nombre": "Otos",
+        "alias": "Otos"
+    },
+    {
+        "ine": "46186",
+        "nombre": "Paiporta",
+        "alias": "Paiporta"
+    },
+    {
+        "ine": "46187",
+        "nombre": "Palma de Gandía",
+        "alias": "Palma de Gandía"
+    },
+    {
+        "ine": "46188",
+        "nombre": "Palmera",
+        "alias": "Palmera"
+    },
+    {
+        "ine": "46189",
+        "nombre": "Palomar, el",
+        "alias": "Palomar, el"
+    },
+    {
+        "ine": "46190",
+        "nombre": "Paterna",
+        "alias": "Paterna"
+    },
+    {
+        "ine": "46192",
+        "nombre": "Petrés",
+        "alias": "Petrés"
+    },
+    {
+        "ine": "46193",
+        "nombre": "Picanya",
+        "alias": "Picanya"
+    },
+    {
+        "ine": "46194",
+        "nombre": "Picassent",
+        "alias": "Picassent"
+    },
+    {
+        "ine": "46195",
+        "nombre": "Piles",
+        "alias": "Piles"
+    },
+    {
+        "ine": "46196",
+        "nombre": "Pinet",
+        "alias": "Pinet"
+    },
+    {
+        "ine": "46199",
+        "nombre": "Pobla de Farnals, la",
+        "alias": "Pobla de Farnals, la"
+    },
+    {
+        "ine": "46202",
+        "nombre": "Pobla de Vallbona, la",
+        "alias": "Pobla de Vallbona, la"
+    },
+    {
+        "ine": "46200",
+        "nombre": "Pobla del Duc, la",
+        "alias": "Pobla del Duc, la"
+    },
+    {
+        "ine": "46203",
+        "nombre": "Pobla Llarga, la",
+        "alias": "Pobla Llarga, la"
+    },
+    {
+        "ine": "46197",
+        "nombre": "Polinyà de Xúquer",
+        "alias": "Polinyà de Xúquer"
+    },
+    {
+        "ine": "46198",
+        "nombre": "Potries",
+        "alias": "Potries"
+    },
+    {
+        "ine": "46205",
+        "nombre": "Puçol",
+        "alias": "Puçol"
+    },
+    {
+        "ine": "46201",
+        "nombre": "Puebla de San Miguel",
+        "alias": "Puebla de San Miguel"
+    },
+    {
+        "ine": "46204",
+        "nombre": "Puig de Santa Maria, el",
+        "alias": "Puig de Santa Maria, el"
+    },
+    {
+        "ine": "46101",
+        "nombre": "Quart de les Valls",
+        "alias": "Quart de les Valls"
+    },
+    {
+        "ine": "46103",
+        "nombre": "Quartell",
+        "alias": "Quartell"
+    },
+    {
+        "ine": "46104",
+        "nombre": "Quatretonda",
+        "alias": "Quatretonda"
+    },
+    {
+        "ine": "46206",
+        "nombre": "Quesa",
+        "alias": "Quesa"
+    },
+    {
+        "ine": "46208",
+        "nombre": "Rafelcofer",
+        "alias": "Rafelcofer"
+    },
+    {
+        "ine": "46209",
+        "nombre": "Rafelguaraf",
+        "alias": "Rafelguaraf"
+    },
+    {
+        "ine": "46210",
+        "nombre": "Ráfol de Salem",
+        "alias": "Ráfol de Salem"
+    },
+    {
+        "ine": "46212",
+        "nombre": "Real",
+        "alias": "Real"
+    },
+    {
+        "ine": "46211",
+        "nombre": "Real de Gandia, el",
+        "alias": "Real de Gandia, el"
+    },
+    {
+        "ine": "46213",
+        "nombre": "Requena",
+        "alias": "Requena"
+    },
+    {
+        "ine": "46214",
+        "nombre": "Riba-roja de Túria",
+        "alias": "Riba-roja de Túria"
+    },
+    {
+        "ine": "46215",
+        "nombre": "Riola",
+        "alias": "Riola"
+    },
+    {
+        "ine": "46216",
+        "nombre": "Rocafort",
+        "alias": "Rocafort"
+    },
+    {
+        "ine": "46217",
+        "nombre": "Rotglà i Corberà",
+        "alias": "Rotglà i Corberà"
+    },
+    {
+        "ine": "46218",
+        "nombre": "Ròtova",
+        "alias": "Ròtova"
+    },
+    {
+        "ine": "46219",
+        "nombre": "Rugat",
+        "alias": "Rugat"
+    },
+    {
+        "ine": "46220",
+        "nombre": "Sagunt/Sagunto",
+        "alias": "Sagunt/Sagunto"
+    },
+    {
+        "ine": "46221",
+        "nombre": "Salem",
+        "alias": "Salem"
+    },
+    {
+        "ine": "46903",
+        "nombre": "San Antonio de Benagéber",
+        "alias": "San Antonio de Benagéber"
+    },
+    {
+        "ine": "46222",
+        "nombre": "Sant Joanet",
+        "alias": "Sant Joanet"
+    },
+    {
+        "ine": "46223",
+        "nombre": "Sedaví",
+        "alias": "Sedaví"
+    },
+    {
+        "ine": "46224",
+        "nombre": "Segart",
+        "alias": "Segart"
+    },
+    {
+        "ine": "46225",
+        "nombre": "Sellent",
+        "alias": "Sellent"
+    },
+    {
+        "ine": "46226",
+        "nombre": "Sempere",
+        "alias": "Sempere"
+    },
+    {
+        "ine": "46227",
+        "nombre": "Senyera",
+        "alias": "Senyera"
+    },
+    {
+        "ine": "46228",
+        "nombre": "Serra",
+        "alias": "Serra"
+    },
+    {
+        "ine": "46229",
+        "nombre": "Siete Aguas",
+        "alias": "Siete Aguas"
+    },
+    {
+        "ine": "46230",
+        "nombre": "Silla",
+        "alias": "Silla"
+    },
+    {
+        "ine": "46231",
+        "nombre": "Simat de la Valldigna",
+        "alias": "Simat de la Valldigna"
+    },
+    {
+        "ine": "46232",
+        "nombre": "Sinarcas",
+        "alias": "Sinarcas"
+    },
+    {
+        "ine": "46233",
+        "nombre": "Sollana",
+        "alias": "Sollana"
+    },
+    {
+        "ine": "46235",
+        "nombre": "Sueca",
+        "alias": "Sueca"
+    },
+    {
+        "ine": "46236",
+        "nombre": "Sumacàrcer",
+        "alias": "Sumacàrcer"
+    },
+    {
+        "ine": "02009",
+        "nombre": "Almansa",
+        "alias": ""
+    }
+]
