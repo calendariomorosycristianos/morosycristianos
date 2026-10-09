@@ -187,6 +187,7 @@ function cargarFiesta() {
    FORMATEAR FECHAS
 ========================= */
 
+
 function formatearFechas(fechaInicio, fechaFin) {
   const partesInicio = fechaInicio.split(" ");
   const partesFin = fechaFin.split(" ");
@@ -197,9 +198,16 @@ function formatearFechas(fechaInicio, fechaFin) {
   const diaFin = partesFin[0];
   const mesFin = partesFin[1];
 
+  // Si la fiesta dura un solo día.
+  if (diaInicio === diaFin && mesInicio === mesFin) {
+    return `${diaInicio} de ${mesInicio}`;
+  }
+
+  // Si la fiesta dura varios días del mismo mes.
   if (mesInicio === mesFin) {
     return `Del ${diaInicio} al ${diaFin} de ${mesInicio}`;
   }
 
+  // Si la fiesta abarca meses distintos.
   return `Del ${diaInicio} de ${mesInicio} al ${diaFin} de ${mesFin}`;
 }
